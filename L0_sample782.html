@@ -9,7 +9,13 @@
         <title>L0_sample782 Gallery</title>
         <style> body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
             .image-container { margin: 10px; }
-            img { max-width: 200px; max-height: 200px; object-fit: cover; }</style>
+            img { max-width: 200px; max-height: 200px; object-fit: cover; }
+            .image-container img:hover {
+                transform: scale(2);
+                /* Scale the image on hover */
+                z-index: 1000;
+            }
+            </style>
     </head>
     <body>
      <div class="w-screen p-6"> 
