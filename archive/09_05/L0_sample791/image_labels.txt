@@ -1,0 +1,1 @@
+['bus, school bus, yellow', 'bus, school bus, yellow', 'bus, school bus, tree, yellow', 'bus, school bus, yellow', 'bus, school bus, yellow', 'food truck, logo, white', 'bus, school bus, yellow', 'bus, school bus, yellow']

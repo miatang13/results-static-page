@@ -1,0 +1,1 @@
+['black, huddle, photo, stand, white, zebra', 'herd, huddle, stand, zebra', 'bend, couple, graze, stand, zebra', 'herd, huddle, stand, zebra', 'herd, huddle, line, row, stand, zebra', 'black, herd, huddle, line, photo, stand, zebra', 'herd, huddle, line, stand, zebra', 'bend, herd, huddle, stand, zebra']

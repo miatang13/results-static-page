@@ -1,0 +1,1 @@
+['apple, close-up, red', 'apple, red', 'apple, image, red', 'apple, red', 'apple, illustration, red', 'apple, red', 'apple, illustration, red', 'apple, red, stem, strip, stripe']

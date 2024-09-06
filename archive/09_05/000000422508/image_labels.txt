@@ -1,0 +1,1 @@
+['bird, white', 'lamp, ceiling, dark, light, illuminate, night, night view, sky', 'bird, wall, chair, gull, ledge, stand, white', 'bird, black, drawing, man', 'bat, dark, man, skateboarder', 'bird, dark, dive, logo, pigeon, white', 'bird, wall, ledge, pigeon, stand, white', 'bat, bird, dark, fly, ledge, night, sky, stand, string']
