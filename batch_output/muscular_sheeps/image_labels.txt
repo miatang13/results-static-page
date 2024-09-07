@@ -1,1 +1,0 @@
-['herd, line, row, sheep, stand, stare, wool', 'herd, illustration, sheep, stand, stare', 'herd, line, row, sheep, stand, stare, wool', 'herd, line, row, sheep, stand, stare, wool', 'herd, line, row, sheep, stand, stare, wool', 'herd, lamb, line, row, sheep, stand, stare, wool', 'herd, line, row, sheep, stand, stare, wool', 'herd, lamb, line, row, sheep, stand']

@@ -1,1 +1,0 @@
-['art, cartoon character, doll, jump, person, illustration, sky, toy', 'art, girl, illustration', 'art, doll, illustration', 'art, cartoon, graveyard, grave, person, illustration', 'art, cartoon, dress, game, illustration', 'art, cartoon, graveyard, person, illustration', 'cartoon, cartoon character, game, illustration', 'art, cartoon, cheerlead, dress, girl, gun, illustration']

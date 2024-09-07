@@ -1,1 +1,0 @@
-['drawing, illustration, image, trailer truck, truck', 'drawing, illustration, trailer truck, truck', 'illustration, trailer truck, truck, yellow', 'drawing, trailer truck, truck, white', 'drawing, trailer truck, truck', 'drawing, illustration, trailer truck, truck', 'chalk, drawing, illustration, pick up, trailer truck, truck', 'drawing, illustration, trailer truck, truck']

@@ -1,1 +1,0 @@
-['camel, couple, stand', 'camel, dark, stand', 'camel, dark, nose, stand', 'camel, stand', 'camel, couple, sky, stand', 'camel, couple, stand', 'camel, stand', 'camel, stand']
