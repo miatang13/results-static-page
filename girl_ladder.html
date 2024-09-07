@@ -9,7 +9,7 @@
         <title>girl_ladder Gallery</title>
         <style> body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
             .image-container { margin: 10px; }
-            img { max-width: 200px; max-height: 200px; object-fit: cover; }
+            img { max-height: 700px; object-fit: contain; }
             .image-container img:hover {
                 transform: scale(2);
                 /* Scale the image on hover */
@@ -20,7 +20,7 @@
     <body>
      <div class="w-screen p-6"> 
         <h1 class="text-2xl">girl_ladder Gallery</h1> 
-        <h2>Results last updated at: 2024-09-07 02:14:57 (PST)</h2>
+        <h2>Results last updated at: 2024-09-07 15:00:40 (PST)</h2>
         <a href="index.html" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Back to Main Gallery</a><br>
         <p class="mt-4"> Generated caption: A realistic image of a little girl wearing a white dress and holding onto a ladder. </p>
         <p class="mt-4"> Image labels (used for segmentation): ['chair, doll, dress, flower, flower girl, girl, ladder, pose, stand, stool, wear, white', 'chair, doll, dress, girl, lace dress, ladder, stair, stand, stool, wear, white', 'doll, dress, flower girl, girl, ladder, stair, stand, wear, white', 'baseball bat, catch, doll, dress, hand, girl, stand, tennis racket, wear, white', 'baseball bat, bat, wand, catch, doll, dress, fairy, hand, girl, stand, sword, wear, white', 'chair, doll, dress, flower girl, folding chair, girl, ladder, pose, stand, stool, wear, white', 'doll, dress, flower girl, girl, ladder, stand, wear, white', 'baseball bat, bat, catch, doll, dress, hand, girl, pole, stand, wear, white'] </p>
@@ -181,29 +181,17 @@
                 <div class="image-container">
                     <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/final_mask_1.png" alt="final_mask_1.png" class="border border-1">
                     <p> final_mask_1.png </p> 
-                </div></div><h2>orig_mask_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1">
-                    <p> orig_mask_sets_plot.png </p> 
-                </div></div><h2>voted_masks_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1">
-                    <p> voted_masks_sets_plot.png </p> 
-                </div></div><h2>final_masks_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1">
-                    <p> final_masks_sets_plot.png </p> 
                 </div></div><h2>Visualization Plots</h2><div class='grid grid-cols-5'>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1 w-full h-full">
                 <p> orig_mask_sets_plot.png </p> 
             </div>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1 w-full h-full">
                 <p> voted_masks_sets_plot.png </p> 
             </div>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1 w-full h-full">
                 <p> final_masks_sets_plot.png </p> 
             </div>
     </body>

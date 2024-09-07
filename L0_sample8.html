@@ -9,7 +9,7 @@
         <title>L0_sample8 Gallery</title>
         <style> body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
             .image-container { margin: 10px; }
-            img { max-width: 200px; max-height: 200px; object-fit: cover; }
+            img { max-height: 700px; object-fit: contain; }
             .image-container img:hover {
                 transform: scale(2);
                 /* Scale the image on hover */
@@ -20,7 +20,7 @@
     <body>
      <div class="w-screen p-6"> 
         <h1 class="text-2xl">L0_sample8 Gallery</h1> 
-        <h2>Results last updated at: 2024-09-06 22:25:35 (PST)</h2>
+        <h2>Results last updated at: 2024-09-07 14:59:53 (PST)</h2>
         <a href="index.html" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Back to Main Gallery</a><br>
         <p class="mt-4"> Generated caption: A realistic image of a dog, cat, and tiger sitting around a table with a man in a uniform holding a letter. </p>
         <p class="mt-4"> Image labels (used for segmentation): ['animal, balustrade, cat, chair, table, doll, figurine, miniature, round table, stool, tiger, toy', 'animal, briefcase, cat, chair, table, figurine, miniature, officer, round table, stool, tiger, toy, uniform', 'animal, armchair, clock, briefcase, chair, table, illustration, stool, tiger, wall clock', 'alcohol, animal, clock, cat, table, figurine, wine, illustration, officer, round table, stool, tiger, uniform, wine glass', 'animal, clock, doll, figurine, guard, miniature, officer, police, stool, tiger, toy, uniform', 'animal, baseball bat, clock, table, doll, figurine, illustration, miniature, officer, round table, sailor, stool, tiger, toy, uniform', 'animal, clock, briefcase, cat, chair, computer, table, figurine, illustration, officer, round table, stool, tiger, toy, uniform', 'animal, clock, chair, table, doll, figurine, miniature, stool, tiger, toy, wall clock'] </p>
@@ -233,29 +233,17 @@
                 <div class="image-container">
                     <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/final_mask_7.png" alt="final_mask_7.png" class="border border-1">
                     <p> final_mask_7.png </p> 
-                </div></div><h2>orig_mask_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1">
-                    <p> orig_mask_sets_plot.png </p> 
-                </div></div><h2>voted_masks_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1">
-                    <p> voted_masks_sets_plot.png </p> 
-                </div></div><h2>final_masks_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1">
-                    <p> final_masks_sets_plot.png </p> 
                 </div></div><h2>Visualization Plots</h2><div class='grid grid-cols-5'>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1 w-full h-full">
                 <p> orig_mask_sets_plot.png </p> 
             </div>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1 w-full h-full">
                 <p> voted_masks_sets_plot.png </p> 
             </div>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/L0_sample8/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1 w-full h-full">
                 <p> final_masks_sets_plot.png </p> 
             </div>
     </body>

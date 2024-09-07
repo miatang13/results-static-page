@@ -9,7 +9,7 @@
         <title>three_furnitures Gallery</title>
         <style> body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
             .image-container { margin: 10px; }
-            img { max-width: 200px; max-height: 200px; object-fit: cover; }
+            img { max-height: 700px; object-fit: contain; }
             .image-container img:hover {
                 transform: scale(2);
                 /* Scale the image on hover */
@@ -20,7 +20,7 @@
     <body>
      <div class="w-screen p-6"> 
         <h1 class="text-2xl">three_furnitures Gallery</h1> 
-        <h2>Results last updated at: 2024-09-07 02:20:07 (PST)</h2>
+        <h2>Results last updated at: 2024-09-07 15:02:03 (PST)</h2>
         <a href="index.html" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Back to Main Gallery</a><br>
         <p class="mt-4"> Generated caption: A realistic image of a white lamp, a white chair, a white bowl, and a white book. </p>
         <p class="mt-4"> Image labels (used for segmentation): ['lamp, chair, table, table lamp, side table, room, stool, tripod, white', 'armchair, lamp, chair, table, table lamp, side table, room, stool, white', 'armchair, lamp, chair, table, table lamp, side table, lamp shade, room, stool, tripod, white', 'lamp, chair, table, table lamp, side table, room, stool, tripod, white', 'armchair, lamp, chair, table, table lamp, side table, room, stool, tripod, white', 'lamp, chair, table, table lamp, easel, side table, stool, tripod, white', 'armchair, lamp, chair, pillar, table, table lamp, side table, room, stool, tripod, white', 'armchair, lamp, chair, table, table lamp, side table, lamp shade, room, stool, tripod, white'] </p>
@@ -197,29 +197,17 @@
                 <div class="image-container">
                     <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/final_mask_3.png" alt="final_mask_3.png" class="border border-1">
                     <p> final_mask_3.png </p> 
-                </div></div><h2>orig_mask_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1">
-                    <p> orig_mask_sets_plot.png </p> 
-                </div></div><h2>voted_masks_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1">
-                    <p> voted_masks_sets_plot.png </p> 
-                </div></div><h2>final_masks_sets_plot</h2><div class='grid grid-cols-5'>
-                <div class="image-container">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1">
-                    <p> final_masks_sets_plot.png </p> 
                 </div></div><h2>Visualization Plots</h2><div class='grid grid-cols-5'>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1 w-full h-full">
                 <p> orig_mask_sets_plot.png </p> 
             </div>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1 w-full h-full">
                 <p> voted_masks_sets_plot.png </p> 
             </div>
-            <div class="image-container">
-                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1">
+            <div class="w-full h-full p-6 col-span-5">
+                <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1 w-full h-full">
                 <p> final_masks_sets_plot.png </p> 
             </div>
     </body>
