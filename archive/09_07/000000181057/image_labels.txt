@@ -1,0 +1,1 @@
+['couple, dark, stand, zebra', 'horse, stand, white, zebra', 'back, horse, image, muscle, pain, stand, zebra', 'horse, image, model, stand, strip, tail, white, zebra', 'horse, image, stand, zebra', 'horse, stand, zebra', 'horse, photo, stand, strip, zebra', 'back, horse, stand, white, zebra']
