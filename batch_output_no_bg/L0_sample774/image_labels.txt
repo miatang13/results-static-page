@@ -1,0 +1,1 @@
+['animal, hut, illustration', 'art, table, hut, illustration, palm tree, plant, stool', 'animal, dog, house exterior, illustration', 'animal, house exterior, illustration, man, pet', 'animal, art, drawing, illustration, vase', 'art, drawing, flower, house exterior, illustration, plant, pot', 'animal, art, chair, hut, pillow, stool', 'animal, art, table, dog, illustration']
