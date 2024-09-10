@@ -1,2 +1,3 @@
 *.npz
 batch_output/**/*.npz
+**_local_htmls/
