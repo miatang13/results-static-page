@@ -1,0 +1,1048 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Comparison Gallery</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 0; padding: 20px; display: flex; flex-wrap: wrap; justify-content: center; }
+            .comparison-row { display: flex; margin-bottom: 20px; }
+            .image-container { margin: 10px; }
+            img { max-width: 400px; max-height: 400px; object-fit: contain; }
+            .label { text-align: center; margin: 5px 0; }
+        </style>
+    </head>
+    <body>
+    <h1 class="w-full">Comparison Gallery</h1>
+    <div class="grid grid-cols-4 gap-x-4">
+    
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">2D_circle_sqr_occlude - With BG Removal</p>
+                    <img src="batch_output/2D_circle_sqr_occlude/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">2D_circle_sqr_occlude - Without BG Removal</p>
+                    <img src="batch_output_no_bg/2D_circle_sqr_occlude/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">2D_circle_sqr_separate - With BG Removal</p>
+                    <img src="batch_output/2D_circle_sqr_separate/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">2D_circle_sqr_separate - Without BG Removal</p>
+                    <img src="batch_output_no_bg/2D_circle_sqr_separate/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">3D_all_separate - With BG Removal</p>
+                    <img src="batch_output/3D_all_separate/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">3D_all_separate - Without BG Removal</p>
+                    <img src="batch_output_no_bg/3D_all_separate/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">3D_all_slight_occlude - With BG Removal</p>
+                    <img src="batch_output/3D_all_slight_occlude/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">3D_all_slight_occlude - Without BG Removal</p>
+                    <img src="batch_output_no_bg/3D_all_slight_occlude/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">3D_tri_on_cube - With BG Removal</p>
+                    <img src="batch_output/3D_tri_on_cube/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">3D_tri_on_cube - Without BG Removal</p>
+                    <img src="batch_output_no_bg/3D_tri_on_cube/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample1 - With BG Removal</p>
+                    <img src="batch_output/L0_sample1/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample1 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample1/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample10 - With BG Removal</p>
+                    <img src="batch_output/L0_sample10/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample10 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample10/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample11 - With BG Removal</p>
+                    <img src="batch_output/L0_sample11/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample11 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample11/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample12 - With BG Removal</p>
+                    <img src="batch_output/L0_sample12/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample12 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample12/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample13 - With BG Removal</p>
+                    <img src="batch_output/L0_sample13/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample13 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample13/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample14 - With BG Removal</p>
+                    <img src="batch_output/L0_sample14/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample14 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample14/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample15 - With BG Removal</p>
+                    <img src="batch_output/L0_sample15/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample15 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample15/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample16 - With BG Removal</p>
+                    <img src="batch_output/L0_sample16/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample16 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample16/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample17 - With BG Removal</p>
+                    <img src="batch_output/L0_sample17/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample17 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample17/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample18 - With BG Removal</p>
+                    <img src="batch_output/L0_sample18/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample18 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample18/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample19 - With BG Removal</p>
+                    <img src="batch_output/L0_sample19/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample19 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample19/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample2 - With BG Removal</p>
+                    <img src="batch_output/L0_sample2/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample2 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample2/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample20 - With BG Removal</p>
+                    <img src="batch_output/L0_sample20/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample20 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample20/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample21 - With BG Removal</p>
+                    <img src="batch_output/L0_sample21/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample21 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample21/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample22 - With BG Removal</p>
+                    <img src="batch_output/L0_sample22/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample22 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample22/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample23 - With BG Removal</p>
+                    <img src="batch_output/L0_sample23/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample23 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample23/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample24 - With BG Removal</p>
+                    <img src="batch_output/L0_sample24/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample24 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample24/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample25 - With BG Removal</p>
+                    <img src="batch_output/L0_sample25/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample25 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample25/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample26 - With BG Removal</p>
+                    <img src="batch_output/L0_sample26/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample26 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample26/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample27 - With BG Removal</p>
+                    <img src="batch_output/L0_sample27/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample27 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample27/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample28 - With BG Removal</p>
+                    <img src="batch_output/L0_sample28/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample28 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample28/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample29 - With BG Removal</p>
+                    <img src="batch_output/L0_sample29/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample29 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample29/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample3 - With BG Removal</p>
+                    <img src="batch_output/L0_sample3/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample3 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample3/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample30 - With BG Removal</p>
+                    <img src="batch_output/L0_sample30/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample30 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample30/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample31 - With BG Removal</p>
+                    <img src="batch_output/L0_sample31/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample31 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample31/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample32 - With BG Removal</p>
+                    <img src="batch_output/L0_sample32/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample32 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample32/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample33 - With BG Removal</p>
+                    <img src="batch_output/L0_sample33/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample33 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample33/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample34 - With BG Removal</p>
+                    <img src="batch_output/L0_sample34/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample34 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample34/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample35 - With BG Removal</p>
+                    <img src="batch_output/L0_sample35/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample35 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample35/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample36 - With BG Removal</p>
+                    <img src="batch_output/L0_sample36/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample36 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample36/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample37 - With BG Removal</p>
+                    <img src="batch_output/L0_sample37/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample37 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample37/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample38 - With BG Removal</p>
+                    <img src="batch_output/L0_sample38/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample38 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample38/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample39 - With BG Removal</p>
+                    <img src="batch_output/L0_sample39/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample39 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample39/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample4 - With BG Removal</p>
+                    <img src="batch_output/L0_sample4/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample4 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample4/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample40 - With BG Removal</p>
+                    <img src="batch_output/L0_sample40/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample40 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample40/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample5 - With BG Removal</p>
+                    <img src="batch_output/L0_sample5/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample5 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample5/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample6 - With BG Removal</p>
+                    <img src="batch_output/L0_sample6/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample6 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample6/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample7 - With BG Removal</p>
+                    <img src="batch_output/L0_sample7/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample7 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample7/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample741 - With BG Removal</p>
+                    <img src="batch_output/L0_sample741/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample741 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample741/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample742 - With BG Removal</p>
+                    <img src="batch_output/L0_sample742/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample742 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample742/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample743 - With BG Removal</p>
+                    <img src="batch_output/L0_sample743/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample743 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample743/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample744 - With BG Removal</p>
+                    <img src="batch_output/L0_sample744/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample744 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample744/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample745 - With BG Removal</p>
+                    <img src="batch_output/L0_sample745/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample745 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample745/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample746 - With BG Removal</p>
+                    <img src="batch_output/L0_sample746/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample746 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample746/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample747 - With BG Removal</p>
+                    <img src="batch_output/L0_sample747/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample747 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample747/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample748 - With BG Removal</p>
+                    <img src="batch_output/L0_sample748/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample748 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample748/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample749 - With BG Removal</p>
+                    <img src="batch_output/L0_sample749/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample749 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample749/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample750 - With BG Removal</p>
+                    <img src="batch_output/L0_sample750/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample750 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample750/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample751 - With BG Removal</p>
+                    <img src="batch_output/L0_sample751/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample751 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample751/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample752 - With BG Removal</p>
+                    <img src="batch_output/L0_sample752/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample752 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample752/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample753 - With BG Removal</p>
+                    <img src="batch_output/L0_sample753/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample753 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample753/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample754 - With BG Removal</p>
+                    <img src="batch_output/L0_sample754/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample754 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample754/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample755 - With BG Removal</p>
+                    <img src="batch_output/L0_sample755/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample755 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample755/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample756 - With BG Removal</p>
+                    <img src="batch_output/L0_sample756/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample756 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample756/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample757 - With BG Removal</p>
+                    <img src="batch_output/L0_sample757/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample757 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample757/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample758 - With BG Removal</p>
+                    <img src="batch_output/L0_sample758/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample758 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample758/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">L0_sample759 - With BG Removal</p>
+                    <img src="batch_output/L0_sample759/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">L0_sample759 - Without BG Removal</p>
+                    <img src="batch_output_no_bg/L0_sample759/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">bird_branch - With BG Removal</p>
+                    <img src="batch_output/bird_branch/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">bird_branch - Without BG Removal</p>
+                    <img src="batch_output_no_bg/bird_branch/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">cat_window - With BG Removal</p>
+                    <img src="batch_output/cat_window/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">cat_window - Without BG Removal</p>
+                    <img src="batch_output_no_bg/cat_window/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">clock_lamp_plant - With BG Removal</p>
+                    <img src="batch_output/clock_lamp_plant/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">clock_lamp_plant - Without BG Removal</p>
+                    <img src="batch_output_no_bg/clock_lamp_plant/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">columns_messy - With BG Removal</p>
+                    <img src="batch_output/columns_messy/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">columns_messy - Without BG Removal</p>
+                    <img src="batch_output_no_bg/columns_messy/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">cow_grass_cloud - With BG Removal</p>
+                    <img src="batch_output/cow_grass_cloud/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">cow_grass_cloud - Without BG Removal</p>
+                    <img src="batch_output_no_bg/cow_grass_cloud/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">dumplings_chopstick - With BG Removal</p>
+                    <img src="batch_output/dumplings_chopstick/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">dumplings_chopstick - Without BG Removal</p>
+                    <img src="batch_output_no_bg/dumplings_chopstick/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">front_elephants - With BG Removal</p>
+                    <img src="batch_output/front_elephants/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">front_elephants - Without BG Removal</p>
+                    <img src="batch_output_no_bg/front_elephants/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">girl_ladder - With BG Removal</p>
+                    <img src="batch_output/girl_ladder/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">girl_ladder - Without BG Removal</p>
+                    <img src="batch_output_no_bg/girl_ladder/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">girl_mountain - With BG Removal</p>
+                    <img src="batch_output/girl_mountain/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">girl_mountain - Without BG Removal</p>
+                    <img src="batch_output_no_bg/girl_mountain/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">hatching_chick - With BG Removal</p>
+                    <img src="batch_output/hatching_chick/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">hatching_chick - Without BG Removal</p>
+                    <img src="batch_output_no_bg/hatching_chick/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">keyboard_notebook - With BG Removal</p>
+                    <img src="batch_output/keyboard_notebook/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">keyboard_notebook - Without BG Removal</p>
+                    <img src="batch_output_no_bg/keyboard_notebook/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">meerkats_fur_scene - With BG Removal</p>
+                    <img src="batch_output/meerkats_fur_scene/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">meerkats_fur_scene - Without BG Removal</p>
+                    <img src="batch_output_no_bg/meerkats_fur_scene/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">muscular_sheeps - With BG Removal</p>
+                    <img src="batch_output/muscular_sheeps/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">muscular_sheeps - Without BG Removal</p>
+                    <img src="batch_output_no_bg/muscular_sheeps/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">painting_robot - With BG Removal</p>
+                    <img src="batch_output/painting_robot/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">painting_robot - Without BG Removal</p>
+                    <img src="batch_output_no_bg/painting_robot/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">pears - With BG Removal</p>
+                    <img src="batch_output/pears/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">pears - Without BG Removal</p>
+                    <img src="batch_output_no_bg/pears/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">plant_sofa - With BG Removal</p>
+                    <img src="batch_output/plant_sofa/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">plant_sofa - Without BG Removal</p>
+                    <img src="batch_output_no_bg/plant_sofa/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">pot_of_plant - With BG Removal</p>
+                    <img src="batch_output/pot_of_plant/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">pot_of_plant - Without BG Removal</p>
+                    <img src="batch_output_no_bg/pot_of_plant/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">pottery_no_occlude - With BG Removal</p>
+                    <img src="batch_output/pottery_no_occlude/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">pottery_no_occlude - Without BG Removal</p>
+                    <img src="batch_output_no_bg/pottery_no_occlude/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">pour_drink - With BG Removal</p>
+                    <img src="batch_output/pour_drink/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">pour_drink - Without BG Removal</p>
+                    <img src="batch_output_no_bg/pour_drink/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">roof_cloud - With BG Removal</p>
+                    <img src="batch_output/roof_cloud/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">roof_cloud - Without BG Removal</p>
+                    <img src="batch_output_no_bg/roof_cloud/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">shelly_ofir_sqr - With BG Removal</p>
+                    <img src="batch_output/shelly_ofir_sqr/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">shelly_ofir_sqr - Without BG Removal</p>
+                    <img src="batch_output_no_bg/shelly_ofir_sqr/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">shrimp_lemon_dish_close - With BG Removal</p>
+                    <img src="batch_output/shrimp_lemon_dish_close/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">shrimp_lemon_dish_close - Without BG Removal</p>
+                    <img src="batch_output_no_bg/shrimp_lemon_dish_close/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">street_light - With BG Removal</p>
+                    <img src="batch_output/street_light/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">street_light - Without BG Removal</p>
+                    <img src="batch_output_no_bg/street_light/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">three_furnitures - With BG Removal</p>
+                    <img src="batch_output/three_furnitures/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">three_furnitures - Without BG Removal</p>
+                    <img src="batch_output_no_bg/three_furnitures/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">two_camels - With BG Removal</p>
+                    <img src="batch_output/two_camels/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">two_camels - Without BG Removal</p>
+                    <img src="batch_output_no_bg/two_camels/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">two_camels_close - With BG Removal</p>
+                    <img src="batch_output/two_camels_close/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">two_camels_close - Without BG Removal</p>
+                    <img src="batch_output_no_bg/two_camels_close/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">two_meerkats - With BG Removal</p>
+                    <img src="batch_output/two_meerkats/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">two_meerkats - Without BG Removal</p>
+                    <img src="batch_output_no_bg/two_meerkats/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">two_meerkats_fur - With BG Removal</p>
+                    <img src="batch_output/two_meerkats_fur/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">two_meerkats_fur - Without BG Removal</p>
+                    <img src="batch_output_no_bg/two_meerkats_fur/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">venice_sketch_sqr - With BG Removal</p>
+                    <img src="batch_output/venice_sketch_sqr/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">venice_sketch_sqr - Without BG Removal</p>
+                    <img src="batch_output_no_bg/venice_sketch_sqr/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">wheelchair - With BG Removal</p>
+                    <img src="batch_output/wheelchair/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">wheelchair - Without BG Removal</p>
+                    <img src="batch_output_no_bg/wheelchair/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+            <div class="comparison-row flex col-span-2 bg-slate-100">
+                <div class="image-container">
+                    <p class="label">zurich_yael_assaf_sqr - With BG Removal</p>
+                    <img src="batch_output/zurich_yael_assaf_sqr/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+                <div class="image-container">
+                    <p class="label">zurich_yael_assaf_sqr - Without BG Removal</p>
+                    <img src="batch_output_no_bg/zurich_yael_assaf_sqr/segmented_sketch.png" alt="segmented_sketch.png" class="border border-2">
+                </div>
+            </div>
+            
+    </div>
+    </body>
+    </html>
+    

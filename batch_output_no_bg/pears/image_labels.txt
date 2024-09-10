@@ -1,0 +1,1 @@
+['bowl, fill, pear', 'bowl, container, fill, pear, silver', 'bowl, drawing, fill, green, pear, white', 'bowl, fill, green, ledge, pear, white', 'bowl, container, fill, green, pear, silver, white', 'bowl, table, fill, pear', 'bowl, fill, pear, white', 'apple, bowl, fill, green, pear, white']
