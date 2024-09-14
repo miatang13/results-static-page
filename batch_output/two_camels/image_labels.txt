@@ -1,1 +1,1 @@
-['camel, couple, stand', 'camel, dark, stand', 'camel, dark, nose, stand', 'camel, stand', 'camel, couple, sky, stand', 'camel, couple, stand', 'camel, stand', 'camel, stand']
+['camel, couple, desert, dune, sand, stand, walk', 'camel, couple, desert, dune, sand, stand, walk', 'camel, couple, desert, sand, sky, stand', 'camel, couple, desert, rock formation, sand, stand, terrain, walk', 'camel, couple, desert, sand, stand', 'camel, couple, desert, sand, stand', 'camel, couple, desert, dune, sand, stand', 'camel, couple, desert, dune, sand, sky, stand, walk']
