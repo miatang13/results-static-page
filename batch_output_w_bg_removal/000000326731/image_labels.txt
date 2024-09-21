@@ -1,1 +1,0 @@
-['couple, giraffe, stand', 'couple, dark, giraffe, stand', 'couple, dark, giraffe, stand', 'couple, giraffe, sky, stand', 'couple, giraffe, stand', 'dark, giraffe, night, night view, sky, stand', 'giraffe, palm tree, stand, tree', 'fern, giraffe, palm tree, savanna, stand, tree, vegetation']
