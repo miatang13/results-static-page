@@ -6,569 +6,319 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
-        <title>Main Gallery</title>
+        <title>Baselines Gallery</title>
         <style>
             body { font-family: Arial, sans-serif; margin: 0; padding: 20px; display: flex; flex-wrap: wrap; justify-content: center; }
-            .gallery-item { margin: 10px; text-align: center; }
-            img { max-width: 200px; max-height: 200px; object-fit: cover; }
-            a { text-decoration: none; color: black; }
-            .gallery-item img:hover {
-                transform: scale(2);
-                /* Scale the image on hover */
-                z-index: 1000;
-            }
+            .comparison-row { display: flex; margin-bottom: 20px; }
+            .image-container { margin: 10px; }
+            img { max-width: 400px; max-height: 400px; object-fit: contain; }
+            .label { text-align: center; margin: 5px 0; }
         </style>
     </head>
     <body>
+    <h1 class="w-full">Our Lates Results vs. Baselines</h1>
+    <div class="flex flex-col gap-y-4">
     
-    <div class="w-screen px-12 py-6"> 
-        <h1 class="text-2xl">Sketch Segmentation Results Main Gallery</h1> 
-        <h3>Click on a segmented sketch image to view intermediate data</h3>
-        <p> Page generated at: 2024-09-21 16:53:30 (PST)</p>
-        <p> Currently displaying 66 sketch results</p>
-        <a href="index_baselines_remote.html" class="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"> Comparison with Baselines HTML </a>
+            <h1 class="w-full text-center">Sketch: L0_sample1</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample1.png" alt="L0_sample1" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample1/segmented_sketch.png" alt="L0_sample1" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample1/segmented_sketch.png" alt="L0_sample1" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample1/segmented_sketch.png" alt="L0_sample1" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample10</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample10.png" alt="L0_sample10" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample10/segmented_sketch.png" alt="L0_sample10" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample10/segmented_sketch.png" alt="L0_sample10" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample10/segmented_sketch.png" alt="L0_sample10" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample11</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample11.png" alt="L0_sample11" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample11/segmented_sketch.png" alt="L0_sample11" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample11/segmented_sketch.png" alt="L0_sample11" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample11/segmented_sketch.png" alt="L0_sample11" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample12</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample12.png" alt="L0_sample12" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample12/segmented_sketch.png" alt="L0_sample12" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample12/segmented_sketch.png" alt="L0_sample12" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample12/segmented_sketch.png" alt="L0_sample12" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample13</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample13.png" alt="L0_sample13" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample13/segmented_sketch.png" alt="L0_sample13" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample13/segmented_sketch.png" alt="L0_sample13" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample13/segmented_sketch.png" alt="L0_sample13" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample14</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample14.png" alt="L0_sample14" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample14/segmented_sketch.png" alt="L0_sample14" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample14/segmented_sketch.png" alt="L0_sample14" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample14/segmented_sketch.png" alt="L0_sample14" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample15</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample15.png" alt="L0_sample15" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample15/segmented_sketch.png" alt="L0_sample15" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample15/segmented_sketch.png" alt="L0_sample15" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample15/segmented_sketch.png" alt="L0_sample15" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample16</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample16.png" alt="L0_sample16" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample16/segmented_sketch.png" alt="L0_sample16" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample16/segmented_sketch.png" alt="L0_sample16" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample16/segmented_sketch.png" alt="L0_sample16" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample17</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample17.png" alt="L0_sample17" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample17/segmented_sketch.png" alt="L0_sample17" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample17/segmented_sketch.png" alt="L0_sample17" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample17/segmented_sketch.png" alt="L0_sample17" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample18</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample18.png" alt="L0_sample18" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample18/segmented_sketch.png" alt="L0_sample18" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample18/segmented_sketch.png" alt="L0_sample18" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample18/segmented_sketch.png" alt="L0_sample18" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample19</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample19.png" alt="L0_sample19" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample19/segmented_sketch.png" alt="L0_sample19" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample19/segmented_sketch.png" alt="L0_sample19" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample19/segmented_sketch.png" alt="L0_sample19" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample2</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample2.png" alt="L0_sample2" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample2/segmented_sketch.png" alt="L0_sample2" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample2/segmented_sketch.png" alt="L0_sample2" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample2/segmented_sketch.png" alt="L0_sample2" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
+            <h1 class="w-full text-center">Sketch: L0_sample20</h1>
+            <div class="comparison-row flex bg-slate-100">
+            
+                <div class="image-container">
+                    <p class="label">Ground Truth</p>
+                    <img src="SketchyScene7k_GT/test/L0_sample20.png" alt="L0_sample20" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">Our Latest Results</p>
+                    <img src="SketchyScene7k_output/test/L0_sample20/segmented_sketch.png" alt="L0_sample20" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_direct_sketch</p>
+                    <img src="batch_output_ablation_direct_sketch/L0_sample20/segmented_sketch.png" alt="L0_sample20" class="border border-2" width="512px" height="512px">
+                </div>
+                
+                <div class="image-container">
+                    <p class="label">batch_output_ablation_naive_sam</p>
+                    <img src="batch_output_ablation_naive_sam/L0_sample20/segmented_sketch.png" alt="L0_sample20" class="border border-2" width="512px" height="512px">
+                </div>
+                </div>
     </div>
-    
-            <h2 class="text-2xl"> Debug Sketches (3) </h2>
-            <div class="mx-12 grid grid-cols-5 w-full place-items-center">
-        
-            <div class="gallery-item">
-                <a href="debug_clouds.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/debug_clouds/segmented_sketch.png" alt="debug_clouds" class="border border-2">
-                    <p>debug_clouds</p>
-                    <p>2024-09-18 22:51:03</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="debug_792_1.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/debug_792_1/segmented_sketch.png" alt="debug_792_1" class="border border-2">
-                    <p>debug_792_1</p>
-                    <p>2024-09-18 13:05:33</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="debug_792_2.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/debug_792_2/segmented_sketch.png" alt="debug_792_2" class="border border-2">
-                    <p>debug_792_2</p>
-                    <p>2024-09-18 13:04:59</p>
-                </a>
-            </div>
-            </div>
-            <h2 class="text-2xl"> Ours Sketches (37) </h2>
-            <div class="mx-12 grid grid-cols-5 w-full place-items-center">
-        
-            <div class="gallery-item">
-                <a href="diane_antone_mountain_lake_landscape.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/diane_antone_mountain_lake_landscape/segmented_sketch.png" alt="diane_antone_mountain_lake_landscape" class="border border-2">
-                    <p>diane_antone_mountain_lake_landscape</p>
-                    <p>2024-09-18 23:29:19</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="zurich_yael_assaf_sqr.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/zurich_yael_assaf_sqr/segmented_sketch.png" alt="zurich_yael_assaf_sqr" class="border border-2">
-                    <p>zurich_yael_assaf_sqr</p>
-                    <p>2024-09-15 02:39:04</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="wheelchair.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/wheelchair/segmented_sketch.png" alt="wheelchair" class="border border-2">
-                    <p>wheelchair</p>
-                    <p>2024-09-15 02:38:55</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="venice_sketch_sqr.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/venice_sketch_sqr/segmented_sketch.png" alt="venice_sketch_sqr" class="border border-2">
-                    <p>venice_sketch_sqr</p>
-                    <p>2024-09-15 02:38:46</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="two_meerkats_fur.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/two_meerkats_fur/segmented_sketch.png" alt="two_meerkats_fur" class="border border-2">
-                    <p>two_meerkats_fur</p>
-                    <p>2024-09-15 02:38:37</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="two_meerkats.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/two_meerkats/segmented_sketch.png" alt="two_meerkats" class="border border-2">
-                    <p>two_meerkats</p>
-                    <p>2024-09-15 02:38:28</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="two_camels_close.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/two_camels_close/segmented_sketch.png" alt="two_camels_close" class="border border-2">
-                    <p>two_camels_close</p>
-                    <p>2024-09-15 02:38:19</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="two_camels.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/two_camels/segmented_sketch.png" alt="two_camels" class="border border-2">
-                    <p>two_camels</p>
-                    <p>2024-09-15 02:38:10</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="three_furnitures.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/three_furnitures/segmented_sketch.png" alt="three_furnitures" class="border border-2">
-                    <p>three_furnitures</p>
-                    <p>2024-09-15 02:38:01</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="street_light.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/street_light/segmented_sketch.png" alt="street_light" class="border border-2">
-                    <p>street_light</p>
-                    <p>2024-09-15 02:37:52</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="shrimp_lemon_dish_close.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/shrimp_lemon_dish_close/segmented_sketch.png" alt="shrimp_lemon_dish_close" class="border border-2">
-                    <p>shrimp_lemon_dish_close</p>
-                    <p>2024-09-15 02:37:43</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="shelly_ofir_sqr.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/shelly_ofir_sqr/segmented_sketch.png" alt="shelly_ofir_sqr" class="border border-2">
-                    <p>shelly_ofir_sqr</p>
-                    <p>2024-09-15 02:37:33</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="roof_cloud.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/roof_cloud/segmented_sketch.png" alt="roof_cloud" class="border border-2">
-                    <p>roof_cloud</p>
-                    <p>2024-09-15 02:37:24</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="pour_drink.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/pour_drink/segmented_sketch.png" alt="pour_drink" class="border border-2">
-                    <p>pour_drink</p>
-                    <p>2024-09-15 02:37:15</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="pottery_no_occlude.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/pottery_no_occlude/segmented_sketch.png" alt="pottery_no_occlude" class="border border-2">
-                    <p>pottery_no_occlude</p>
-                    <p>2024-09-15 02:37:06</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="pot_of_plant.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/pot_of_plant/segmented_sketch.png" alt="pot_of_plant" class="border border-2">
-                    <p>pot_of_plant</p>
-                    <p>2024-09-15 02:36:57</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="plant_sofa.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/plant_sofa/segmented_sketch.png" alt="plant_sofa" class="border border-2">
-                    <p>plant_sofa</p>
-                    <p>2024-09-15 02:36:48</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="pears.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/pears/segmented_sketch.png" alt="pears" class="border border-2">
-                    <p>pears</p>
-                    <p>2024-09-15 02:36:38</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="painting_robot.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/painting_robot/segmented_sketch.png" alt="painting_robot" class="border border-2">
-                    <p>painting_robot</p>
-                    <p>2024-09-15 02:36:29</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="muscular_sheeps.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/muscular_sheeps/segmented_sketch.png" alt="muscular_sheeps" class="border border-2">
-                    <p>muscular_sheeps</p>
-                    <p>2024-09-15 02:36:20</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="meerkats_fur_scene.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/meerkats_fur_scene/segmented_sketch.png" alt="meerkats_fur_scene" class="border border-2">
-                    <p>meerkats_fur_scene</p>
-                    <p>2024-09-15 02:36:11</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="keyboard_notebook.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/keyboard_notebook/segmented_sketch.png" alt="keyboard_notebook" class="border border-2">
-                    <p>keyboard_notebook</p>
-                    <p>2024-09-15 02:36:02</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="hatching_chick.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/hatching_chick/segmented_sketch.png" alt="hatching_chick" class="border border-2">
-                    <p>hatching_chick</p>
-                    <p>2024-09-15 02:35:53</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="girl_mountain.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_mountain/segmented_sketch.png" alt="girl_mountain" class="border border-2">
-                    <p>girl_mountain</p>
-                    <p>2024-09-15 02:35:43</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="girl_ladder.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/girl_ladder/segmented_sketch.png" alt="girl_ladder" class="border border-2">
-                    <p>girl_ladder</p>
-                    <p>2024-09-15 02:35:34</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="front_elephants.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/front_elephants/segmented_sketch.png" alt="front_elephants" class="border border-2">
-                    <p>front_elephants</p>
-                    <p>2024-09-15 02:35:25</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="dumplings_chopstick.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/dumplings_chopstick/segmented_sketch.png" alt="dumplings_chopstick" class="border border-2">
-                    <p>dumplings_chopstick</p>
-                    <p>2024-09-15 02:35:16</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="cow_grass_cloud.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/cow_grass_cloud/segmented_sketch.png" alt="cow_grass_cloud" class="border border-2">
-                    <p>cow_grass_cloud</p>
-                    <p>2024-09-15 02:35:07</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="columns_messy.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/columns_messy/segmented_sketch.png" alt="columns_messy" class="border border-2">
-                    <p>columns_messy</p>
-                    <p>2024-09-15 02:34:58</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="clock_lamp_plant.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/clock_lamp_plant/segmented_sketch.png" alt="clock_lamp_plant" class="border border-2">
-                    <p>clock_lamp_plant</p>
-                    <p>2024-09-15 02:34:49</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="cat_window.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/cat_window/segmented_sketch.png" alt="cat_window" class="border border-2">
-                    <p>cat_window</p>
-                    <p>2024-09-15 02:34:40</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="bird_branch.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/bird_branch/segmented_sketch.png" alt="bird_branch" class="border border-2">
-                    <p>bird_branch</p>
-                    <p>2024-09-15 02:34:31</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="3D_tri_on_cube.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/3D_tri_on_cube/segmented_sketch.png" alt="3D_tri_on_cube" class="border border-2">
-                    <p>3D_tri_on_cube</p>
-                    <p>2024-09-15 02:20:15</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="3D_all_slight_occlude.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/3D_all_slight_occlude/segmented_sketch.png" alt="3D_all_slight_occlude" class="border border-2">
-                    <p>3D_all_slight_occlude</p>
-                    <p>2024-09-15 02:20:06</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="3D_all_separate.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/3D_all_separate/segmented_sketch.png" alt="3D_all_separate" class="border border-2">
-                    <p>3D_all_separate</p>
-                    <p>2024-09-15 02:19:57</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="2D_circle_sqr_separate.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/2D_circle_sqr_separate/segmented_sketch.png" alt="2D_circle_sqr_separate" class="border border-2">
-                    <p>2D_circle_sqr_separate</p>
-                    <p>2024-09-15 02:19:48</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="2D_circle_sqr_occlude.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/2D_circle_sqr_occlude/segmented_sketch.png" alt="2D_circle_sqr_occlude" class="border border-2">
-                    <p>2D_circle_sqr_occlude</p>
-                    <p>2024-09-15 02:19:39</p>
-                </a>
-            </div>
-            </div>
-            <h2 class="text-2xl"> SketchyScene Sketches (0) </h2>
-            <div class="mx-12 grid grid-cols-5 w-full place-items-center">
-        </div>
-            <h2 class="text-2xl"> FSCOCO Sketches (26) </h2>
-            <div class="mx-12 grid grid-cols-5 w-full place-items-center">
-        
-            <div class="gallery-item">
-                <a href="000000551241.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000551241/segmented_sketch.png" alt="000000551241" class="border border-2">
-                    <p>000000551241</p>
-                    <p>2024-09-15 02:19:30</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000530551.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000530551/segmented_sketch.png" alt="000000530551" class="border border-2">
-                    <p>000000530551</p>
-                    <p>2024-09-15 02:19:21</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000482157.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000482157/segmented_sketch.png" alt="000000482157" class="border border-2">
-                    <p>000000482157</p>
-                    <p>2024-09-15 02:19:11</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000455476.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000455476/segmented_sketch.png" alt="000000455476" class="border border-2">
-                    <p>000000455476</p>
-                    <p>2024-09-15 02:19:02</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000422508.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000422508/segmented_sketch.png" alt="000000422508" class="border border-2">
-                    <p>000000422508</p>
-                    <p>2024-09-15 02:18:53</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000339100.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000339100/segmented_sketch.png" alt="000000339100" class="border border-2">
-                    <p>000000339100</p>
-                    <p>2024-09-15 02:18:43</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000326731.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000326731/segmented_sketch.png" alt="000000326731" class="border border-2">
-                    <p>000000326731</p>
-                    <p>2024-09-15 02:18:34</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000299259.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000299259/segmented_sketch.png" alt="000000299259" class="border border-2">
-                    <p>000000299259</p>
-                    <p>2024-09-15 02:18:25</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000274341.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000274341/segmented_sketch.png" alt="000000274341" class="border border-2">
-                    <p>000000274341</p>
-                    <p>2024-09-15 02:18:16</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000246066.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000246066/segmented_sketch.png" alt="000000246066" class="border border-2">
-                    <p>000000246066</p>
-                    <p>2024-09-15 02:18:07</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000211716.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000211716/segmented_sketch.png" alt="000000211716" class="border border-2">
-                    <p>000000211716</p>
-                    <p>2024-09-15 02:17:57</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000207184.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000207184/segmented_sketch.png" alt="000000207184" class="border border-2">
-                    <p>000000207184</p>
-                    <p>2024-09-15 02:17:48</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000181057.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000181057/segmented_sketch.png" alt="000000181057" class="border border-2">
-                    <p>000000181057</p>
-                    <p>2024-09-15 02:17:39</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000137706.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000137706/segmented_sketch.png" alt="000000137706" class="border border-2">
-                    <p>000000137706</p>
-                    <p>2024-09-15 02:17:30</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000131099.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000131099/segmented_sketch.png" alt="000000131099" class="border border-2">
-                    <p>000000131099</p>
-                    <p>2024-09-15 02:17:21</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000077063.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000077063/segmented_sketch.png" alt="000000077063" class="border border-2">
-                    <p>000000077063</p>
-                    <p>2024-09-15 02:17:12</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000074411.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000074411/segmented_sketch.png" alt="000000074411" class="border border-2">
-                    <p>000000074411</p>
-                    <p>2024-09-15 02:17:03</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000066027.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000066027/segmented_sketch.png" alt="000000066027" class="border border-2">
-                    <p>000000066027</p>
-                    <p>2024-09-15 02:16:54</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000064738.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000064738/segmented_sketch.png" alt="000000064738" class="border border-2">
-                    <p>000000064738</p>
-                    <p>2024-09-15 02:16:45</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000061150.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000061150/segmented_sketch.png" alt="000000061150" class="border border-2">
-                    <p>000000061150</p>
-                    <p>2024-09-15 02:15:05</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000025625.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000025625/segmented_sketch.png" alt="000000025625" class="border border-2">
-                    <p>000000025625</p>
-                    <p>2024-09-15 02:14:55</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000024931.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000024931/segmented_sketch.png" alt="000000024931" class="border border-2">
-                    <p>000000024931</p>
-                    <p>2024-09-15 02:14:46</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000012501.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000012501/segmented_sketch.png" alt="000000012501" class="border border-2">
-                    <p>000000012501</p>
-                    <p>2024-09-15 02:14:37</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000011667.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000011667/segmented_sketch.png" alt="000000011667" class="border border-2">
-                    <p>000000011667</p>
-                    <p>2024-09-15 02:14:26</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000006336.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000006336/segmented_sketch.png" alt="000000006336" class="border border-2">
-                    <p>000000006336</p>
-                    <p>2024-09-15 02:14:16</p>
-                </a>
-            </div>
-            
-            <div class="gallery-item">
-                <a href="000000005946.html">
-                    <img src="https://github.com/miatang13/results-static-page/raw/main/batch_output/000000005946/segmented_sketch.png" alt="000000005946" class="border border-2">
-                    <p>000000005946</p>
-                    <p>2024-09-15 02:14:01</p>
-                </a>
-            </div>
-            </div>
     </body>
     </html>
     
