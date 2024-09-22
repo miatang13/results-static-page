@@ -8,7 +8,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <title>Baselines Gallery</title>
         <style>
-            body { font-family: Arial, sans-serif; margin: 0; padding: 20px; display: flex; flex-wrap: wrap; justify-content: center; }
+            body { font-family: Arial, sans-serif; margin: 0; padding: 20px;}
             .comparison-row { display: flex; margin-bottom: 20px; }
             .image-container { margin: 10px; }
             img { max-width: 400px; max-height: 400px; object-fit: contain; }
@@ -16,12 +16,10 @@
         </style>
     </head>
     
-    <body>
-    <div class="p-6">
-        <h1 class="w-full text-2xl font-bold text-slate-800">Our Latest Results vs. Baselines</h1>
-        <p class="w-full text-slate-400">HTML generated at: 2024-09-22 01:22:51</p>
-    </div>
+    <body class="flex justify-center">
     <div class="flex flex-col gap-y-4">
+     <h1 class="w-full text-2xl font-bold text-slate-800">Our Latest Results vs. Baselines</h1>
+        <p class="w-full text-slate-400">HTML generated at: 2024-09-22 02:55:43</p>
     
         <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
         <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample1</h1>
@@ -833,6 +831,376 @@
             
                 <a href="L0_sample29-naive_sam-local.html">
                  <img src="batch_output_ablation_naive_sam/L0_sample29/segmented_sketch.png" alt="L0_sample29" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample3</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample3.png" alt="L0_sample3" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:23:47</p>
+            
+                <a href="L0_sample3-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample3/segmented_sketch.png" alt="L0_sample3" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample3/segmented_sketch.png" alt="L0_sample3" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 01:23:37</p>
+            
+                <a href="L0_sample3-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample3/segmented_sketch.png" alt="L0_sample3" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample30</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample30.png" alt="L0_sample30" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:23:56</p>
+            
+                <a href="L0_sample30-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample30/segmented_sketch.png" alt="L0_sample30" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample30/segmented_sketch.png" alt="L0_sample30" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 01:31:11</p>
+            
+                <a href="L0_sample30-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample30/segmented_sketch.png" alt="L0_sample30" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample31</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample31.png" alt="L0_sample31" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:24:05</p>
+            
+                <a href="L0_sample31-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample31/segmented_sketch.png" alt="L0_sample31" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample31/segmented_sketch.png" alt="L0_sample31" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 01:38:44</p>
+            
+                <a href="L0_sample31-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample31/segmented_sketch.png" alt="L0_sample31" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample32</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample32.png" alt="L0_sample32" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:24:14</p>
+            
+                <a href="L0_sample32-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample32/segmented_sketch.png" alt="L0_sample32" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample32/segmented_sketch.png" alt="L0_sample32" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 01:48:45</p>
+            
+                <a href="L0_sample32-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample32/segmented_sketch.png" alt="L0_sample32" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample33</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample33.png" alt="L0_sample33" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:24:23</p>
+            
+                <a href="L0_sample33-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample33/segmented_sketch.png" alt="L0_sample33" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample33/segmented_sketch.png" alt="L0_sample33" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 01:56:52</p>
+            
+                <a href="L0_sample33-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample33/segmented_sketch.png" alt="L0_sample33" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample34</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample34.png" alt="L0_sample34" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:24:32</p>
+            
+                <a href="L0_sample34-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample34/segmented_sketch.png" alt="L0_sample34" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample34/segmented_sketch.png" alt="L0_sample34" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 02:08:29</p>
+            
+                <a href="L0_sample34-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample34/segmented_sketch.png" alt="L0_sample34" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample35</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample35.png" alt="L0_sample35" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:24:41</p>
+            
+                <a href="L0_sample35-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample35/segmented_sketch.png" alt="L0_sample35" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample35/segmented_sketch.png" alt="L0_sample35" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 02:18:11</p>
+            
+                <a href="L0_sample35-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample35/segmented_sketch.png" alt="L0_sample35" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample36</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample36.png" alt="L0_sample36" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:24:50</p>
+            
+                <a href="L0_sample36-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample36/segmented_sketch.png" alt="L0_sample36" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample36/segmented_sketch.png" alt="L0_sample36" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 02:29:43</p>
+            
+                <a href="L0_sample36-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample36/segmented_sketch.png" alt="L0_sample36" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample37</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample37.png" alt="L0_sample37" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:25:00</p>
+            
+                <a href="L0_sample37-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample37/segmented_sketch.png" alt="L0_sample37" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample37/segmented_sketch.png" alt="L0_sample37" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 02:41:53</p>
+            
+                <a href="L0_sample37-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample37/segmented_sketch.png" alt="L0_sample37" class="border border-2 border-slate-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            </div>
+        <div class="comparison-row grid grid-cols-4 bg-slate-50 rounded-md border border-2 p-2">
+        <h1 class="col-span-full text-center text-slate-400 text-sm italic">Sketch: L0_sample38</h1>
+        
+            <div class="image-container">
+                <p class="label text-green-500">Ground Truth</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-21 16:41:41</p>
+            
+                    <img src="SketchyScene7k_GT/test/L0_sample38.png" alt="L0_sample38" class="border border-2 border-green-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-orange-500">Our Latest Results</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-15 02:25:09</p>
+            
+                <a href="L0_sample38-ours-local.html">
+                 <img src="SketchyScene7k_output/test/L0_sample38/segmented_sketch.png" alt="L0_sample38" class="border border-2 border-orange-400 hover:border-blue-500">
+                  </a>
+                
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Grounded Seg on Sketch</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-20 13:06:36</p>
+            
+                    <img src="batch_output_ablation_direct_sketch/L0_sample38/segmented_sketch.png" alt="L0_sample38" class="border border-2 border-slate-400">
+            </div>
+            
+            <div class="image-container">
+                <p class="label text-slate-500">Naive SAM on Real Images</p>
+                <p class="label text-slate-400 text-xs">Updated 2024-09-22 02:51:06</p>
+            
+                <a href="L0_sample38-naive_sam-local.html">
+                 <img src="batch_output_ablation_naive_sam/L0_sample38/segmented_sketch.png" alt="L0_sample38" class="border border-2 border-slate-400 hover:border-blue-500">
                   </a>
                 
             </div>
