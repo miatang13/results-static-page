@@ -1,0 +1,1 @@
+['child(0.52)', 'hut(0.52)', 'tree(0.46)', 'child(0.42)', 'tree(0.40)', 'park(0.36)', 'illustration(0.36)', 'child(0.35)', 'hut(0.34)', 'hut(0.33)', 'hut(0.31)', 'illustration(0.30)', 'tree(0.30)', 'tree(0.30)', 'child(0.30)', 'illustration(0.28)', 'tree(0.26)', 'tree(0.25)']

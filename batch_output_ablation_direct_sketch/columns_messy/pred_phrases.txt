@@ -1,0 +1,1 @@
+['doorway(0.50)', 'stool(0.48)', 'chair(0.42)', 'building(0.38)', 'woman(0.32)', 'pillar(0.26)', 'stool(0.26)']

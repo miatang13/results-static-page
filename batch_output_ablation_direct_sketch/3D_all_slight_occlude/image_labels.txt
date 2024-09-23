@@ -1,0 +1,1 @@
+circle, cone, cube, cylinder, icon, illustration, pyramid, shape

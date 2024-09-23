@@ -1,0 +1,1 @@
+['house(0.47)', 'illustration(0.47)', 'house(0.33)']

@@ -1,0 +1,1 @@
+['bottle(0.51)', 'plate saucer(0.48)', 'jug(0.45)', 'jug pot(0.42)', 'pottery(0.41)', 'bottle(0.29)', 'kitchenware tableware(0.28)', 'utensil(0.26)']

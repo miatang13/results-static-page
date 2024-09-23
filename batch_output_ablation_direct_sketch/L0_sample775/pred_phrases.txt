@@ -1,0 +1,1 @@
+['house exterior(0.56)', 'child(0.50)', 'family(0.49)', 'family(0.46)', 'child(0.45)', 'family(0.43)', 'food(0.37)', 'food(0.34)', 'food(0.34)', 'illustration(0.28)']

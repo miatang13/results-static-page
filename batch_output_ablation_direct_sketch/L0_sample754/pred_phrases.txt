@@ -1,0 +1,1 @@
+['sky(0.50)', 'palm tree(0.41)', 'palm tree(0.38)', 'palm tree(0.35)', 'illustration(0.34)', 'illustration(0.31)', 'palm tree(0.29)', 'illustration(0.28)']

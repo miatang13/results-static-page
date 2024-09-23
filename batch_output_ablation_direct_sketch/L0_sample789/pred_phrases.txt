@@ -1,0 +1,1 @@
+['basket(0.82)', 'bicycle(0.80)', 'dog(0.69)', 'woman(0.61)', 'boy(0.59)', 'illustration(0.32)']

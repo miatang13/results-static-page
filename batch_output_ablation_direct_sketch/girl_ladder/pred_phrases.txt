@@ -1,0 +1,1 @@
+['dress(0.64)', 'boy(0.62)', 'flower(0.55)', 'stool(0.48)', 'stool(0.42)', 'ladder(0.37)', 'easel(0.25)']

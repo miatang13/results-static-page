@@ -1,0 +1,1 @@
+['animal(0.46)', 'coffee coffee cup(0.41)']

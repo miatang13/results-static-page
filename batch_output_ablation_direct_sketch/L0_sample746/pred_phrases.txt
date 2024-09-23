@@ -1,0 +1,1 @@
+['bench(0.74)', 'house(0.48)', 'house(0.43)', 'speech bubble(0.39)', 'speech bubble(0.38)', 'sky(0.32)', 'speech bubble(0.32)', 'speech bubble(0.31)']

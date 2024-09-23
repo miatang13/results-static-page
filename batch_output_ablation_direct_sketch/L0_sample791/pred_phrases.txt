@@ -1,0 +1,1 @@
+['cart(0.62)', 'palm tree(0.55)', 'palm tree(0.50)', 'illustration(0.37)', 'illustration(0.27)']

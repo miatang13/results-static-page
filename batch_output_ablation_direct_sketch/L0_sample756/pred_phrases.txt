@@ -1,0 +1,1 @@
+['palm tree(0.56)', 'boy(0.53)', 'child(0.52)', 'illustration(0.43)', 'kite(0.31)', 'kite(0.29)', 'kite(0.27)']

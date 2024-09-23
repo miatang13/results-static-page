@@ -1,0 +1,1 @@
+['basket(0.56)', 'cat(0.52)', 'illustration(0.42)', 'basket(0.41)', 'basket(0.35)']

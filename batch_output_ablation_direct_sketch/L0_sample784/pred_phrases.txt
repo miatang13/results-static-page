@@ -1,0 +1,1 @@
+['woman(0.59)', 'man(0.54)', 'palm tree(0.54)', 'house exterior(0.50)', 'park bench(0.49)', 'bench(0.48)', 'bench(0.42)', 'palm tree(0.35)', 'palm tree(0.31)', 'palm tree(0.28)']

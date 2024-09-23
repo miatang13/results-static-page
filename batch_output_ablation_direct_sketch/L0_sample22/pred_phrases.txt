@@ -1,0 +1,1 @@
+['house(0.67)', 'tree(0.62)', 'girl(0.60)', 'street sign(0.37)', 'illustration(0.35)', 'illustration(0.33)', 'hill(0.30)', 'illustration(0.26)', 'floor(0.25)']

@@ -1,0 +1,1 @@
+['fence(0.65)', 'park bench(0.64)', 'dog(0.64)', 'man(0.63)', 'illustration(0.40)', 'cartoon(0.33)']

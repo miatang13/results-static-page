@@ -1,0 +1,1 @@
+['box(0.56)', 'circle(0.49)', 'cube cylinder(0.36)', 'triangle(0.35)', 'cone(0.34)']

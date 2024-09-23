@@ -1,0 +1,1 @@
+area, circle, cylinder, line, rectangle, shape, side, square, symmetry

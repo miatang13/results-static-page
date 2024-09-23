@@ -1,0 +1,1 @@
+['animal(0.46)', 'tractor(0.45)', 'barn(0.43)', 'barn(0.38)', 'animal(0.34)', 'animal(0.31)', 'barn(0.30)']

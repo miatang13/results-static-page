@@ -1,0 +1,1 @@
+['bench(0.59)', 'palm tree(0.57)', 'cat(0.55)', 'sun(0.52)', 'flower(0.38)', 'palm tree(0.36)', 'flower(0.32)', 'flower(0.30)', 'flower(0.30)', 'flower(0.29)', 'landscape(0.27)', 'illustration(0.26)', 'cat(0.25)']

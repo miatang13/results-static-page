@@ -1,0 +1,1 @@
+['bottle(0.64)', 'animal(0.56)', 'woman(0.52)', 'girl(0.51)', 'doll(0.42)', 'blanket(0.25)', 'mat(0.25)']

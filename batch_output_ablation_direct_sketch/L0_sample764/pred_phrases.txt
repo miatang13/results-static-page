@@ -1,0 +1,1 @@
+['park bench(0.64)', 'park bench(0.59)', 'child(0.55)', 'illustration(0.46)', 'girl(0.43)', 'sun(0.32)', 'sun(0.27)']

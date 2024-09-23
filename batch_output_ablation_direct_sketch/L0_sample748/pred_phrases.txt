@@ -1,0 +1,1 @@
+['bird(0.69)', 'park bench(0.66)', 'chimney(0.58)', 'house(0.55)', 'chicken(0.25)', 'cock(0.25)']

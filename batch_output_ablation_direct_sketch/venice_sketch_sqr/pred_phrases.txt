@@ -1,0 +1,1 @@
+['canoe(0.37)', 'paddle(0.31)', 'illustration(0.27)', 'paddle(0.25)']

@@ -1,0 +1,1 @@
+['tripod(0.57)', 'armchair(0.54)', 'fruit(0.49)', 'side stool(0.45)', 'illustration(0.29)', 'lamp(0.26)']

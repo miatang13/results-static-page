@@ -1,0 +1,1 @@
+['lighthouse(0.73)', 'bench(0.61)', 'fence(0.55)', 'palm tree(0.51)', 'sky(0.44)', 'illustration(0.34)', 'palm tree(0.28)']

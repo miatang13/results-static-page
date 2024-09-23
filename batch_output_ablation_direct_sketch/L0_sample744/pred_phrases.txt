@@ -1,0 +1,1 @@
+['car(0.70)', 'building(0.59)', 'road(0.45)', 'street scene(0.42)', 'building(0.39)', 'building(0.30)']

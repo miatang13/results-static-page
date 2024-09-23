@@ -1,0 +1,1 @@
+['plane(0.58)', 'illustration(0.32)', 'sky(0.28)']

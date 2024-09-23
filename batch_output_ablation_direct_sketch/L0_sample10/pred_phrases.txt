@@ -1,0 +1,1 @@
+['dog(0.69)', 'child(0.56)', 'stool(0.55)', 'beach chair(0.54)', 'man(0.51)', 'palm tree(0.48)', 'palm tree(0.47)', 'chair(0.42)', 'palm tree(0.34)', 'illustration(0.31)']

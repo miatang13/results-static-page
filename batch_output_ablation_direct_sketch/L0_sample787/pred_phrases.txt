@@ -1,0 +1,1 @@
+['car(0.68)', 'building(0.56)', 'palm tree(0.48)', 'palm tree(0.41)', 'palm tree(0.35)', 'illustration(0.32)', 'hill hillside(0.32)', 'palm tree(0.28)']
