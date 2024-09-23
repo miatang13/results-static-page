@@ -1,0 +1,1 @@
+['black, cloud, cloudy, sky, white', 'cloud, cloudy, sea, sky, white', 'cloud, cloudy, sea, sky, storm cloud, stormy, white', 'black, cloud, cloudy, fly, sea, sky, white', 'black, cloud, cloudy, fly, image, photo, sky, white', 'cloud, cloudy, sea, sky, storm cloud, white', 'black, cloud, cloudy, image, photo, sky, white', 'cloud, cloudy, drawing, illustration, rain, sky']

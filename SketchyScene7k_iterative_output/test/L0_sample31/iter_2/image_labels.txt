@@ -1,0 +1,1 @@
+['catch, drawing, hand, person, pencil', 'art, drawing, hand, person', 'art, black, hand, person, white', 'art, drawing, hand, person, peace', 'drawing, hand, person, peace', 'art, drawing, hand, person', 'art, drawing, hand, person, peace, pencil, sign', 'art, drawing, hand, person, pencil, sketch']

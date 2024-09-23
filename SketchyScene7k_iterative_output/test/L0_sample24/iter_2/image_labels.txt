@@ -1,0 +1,1 @@
+['crescent, draw, drawing, face, sun', 'crescent, draw, drawing, eye, face, sun', 'deity, eye, face, gold, illustration, ray, sun, symbol', 'crescent, deity, draw, drawing, eye, face, sun, tattoo', 'draw, drawing, face, ink, sun', 'draw, drawing, eye, face, sun', 'draw, drawing, face, ink, sketch, sun', 'art, cloud, draw, drawing, eye, face, sky, sun']

@@ -1,0 +1,1 @@
+['silver, white', 'paper, stool, white', 'stool, white', 'cloth, linen, paper, pillow, plain, sheet, tear, white', 'toilet paper, cardboard, paper, paper towel, pen, sheet, stool, tape, tissue, white, wrapping paper', 'toilet paper, roll, paper, paper towel, scroll, sheet, strip, tape, white', 'wall, cardboard, paper, sheet, square, tape, tear, white', 'white']

@@ -1,0 +1,1 @@
+['blue, cloud, cloudy, horizon, sea, sky, white', 'plane, blue, cloud, cloudy, sea, sky, white', 'blue, cloud, cloudy, sky, sun, sunshine, white', 'plane, cloud, cloudy, sea, sky, white', 'blue, cloud, cloudy, horizon, sea, sky, white', 'blue, cloud, cloudy, horizon, sea, sky, water', 'blue, cloud, cloudy, sky, sun', 'blue, cloud, cloudy, fly, sea, sky, sun, white']
