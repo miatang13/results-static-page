@@ -1,0 +1,782 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>L0_sample1-iterative Gallery</title>
+        <style> body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+            .image-container { margin: 10px; }
+            img { max-height: 700px; object-fit: contain; }
+            .image-container img:hover {
+                transform: scale(2);
+                /* Scale the image on hover */
+                z-index: 1000;
+            }
+            </style>
+    </head>
+    <body>
+     <div class="w-screen p-6"> 
+        <h1 class="text-2xl">L0_sample1-iterative Gallery</h1> 
+        <h2>Results last updated at: 2024-09-23 11:54:51 (PST)</h2>
+        <h2 class="mb-4"> Dir path: /disk/miatang/stroke-label/extern/results-static-page/SketchyScene7k_iterative_output/test/L0_sample1 </h2>  
+        <a href=index.html class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Back to Main Gallery</a><br>
+    </div>
+    
+        <div>
+            <h1 class='text-xl'>Iteration: iter_0</h1>
+            <p class="mt-4"> Generated caption: A realistic image of a bottle of wine surrounded by grapes and grass. </p>
+            <p class="mt-4"> Image labels (used for segmentation): ['alcohol, bottle, liquor, grape, wine, green, illustration, vine, wine bottle, wine glass', 'alcohol, bottle, liquor, daisy, flower, grape, wine, grass, green, illustration, plant, reed, vine, wine bottle', 'alcohol, bottle, liquor, grape, wine, illustration, label, purple, vine, wine bottle, wine glass', 'alcohol, bottle, champagne, liquor, daisy, flower, grape, wine, grass, vine, wine bottle, wine glass', 'alcohol, bottle, liquor, daisy, flower, grape, wine, grass, red, vine, wine bottle, wine glass', 'alcohol, bottle, branch, champagne, liquor, daisy, flower, grape, wine, illustration, vine, wine bottle, wine glass', 'alcohol, bottle, liquor, daisy, flower, gin, grape, wine, grass, green, illustration, label, vodka, wine bottle', 'alcohol, bottle, champagne, liquor, daisy, flower, grape, wine, wine bottle'] </p>
+        <h2>Input & Output</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/input_image.png" alt="input_image.png" class="border border-1">
+                        <p> input_image.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/combined_mask.png" alt="combined_mask.png" class="border border-1">
+                        <p> combined_mask.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/segmented_sketch.png" alt="segmented_sketch.png" class="border border-1">
+                        <p> segmented_sketch.png </p> 
+                    </div></div><h2>real_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_0.png" alt="real_image_0.png" class="border border-1">
+                        <p> real_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_1.png" alt="real_image_1.png" class="border border-1">
+                        <p> real_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_2.png" alt="real_image_2.png" class="border border-1">
+                        <p> real_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_3.png" alt="real_image_3.png" class="border border-1">
+                        <p> real_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_4.png" alt="real_image_4.png" class="border border-1">
+                        <p> real_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_5.png" alt="real_image_5.png" class="border border-1">
+                        <p> real_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_6.png" alt="real_image_6.png" class="border border-1">
+                        <p> real_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_image_7.png" alt="real_image_7.png" class="border border-1">
+                        <p> real_image_7.png </p> 
+                    </div></div><h2>real_segmentation</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_0.png" alt="real_segmentation_0.png" class="border border-1">
+                        <p> real_segmentation_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_1.png" alt="real_segmentation_1.png" class="border border-1">
+                        <p> real_segmentation_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_2.png" alt="real_segmentation_2.png" class="border border-1">
+                        <p> real_segmentation_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_3.png" alt="real_segmentation_3.png" class="border border-1">
+                        <p> real_segmentation_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_4.png" alt="real_segmentation_4.png" class="border border-1">
+                        <p> real_segmentation_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_5.png" alt="real_segmentation_5.png" class="border border-1">
+                        <p> real_segmentation_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_6.png" alt="real_segmentation_6.png" class="border border-1">
+                        <p> real_segmentation_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/real_segmentation_7.png" alt="real_segmentation_7.png" class="border border-1">
+                        <p> real_segmentation_7.png </p> 
+                    </div></div><h2>colored_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_0.png" alt="colored_mask_0.png" class="border border-1">
+                        <p> colored_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_1.png" alt="colored_mask_1.png" class="border border-1">
+                        <p> colored_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_2.png" alt="colored_mask_2.png" class="border border-1">
+                        <p> colored_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_3.png" alt="colored_mask_3.png" class="border border-1">
+                        <p> colored_mask_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_4.png" alt="colored_mask_4.png" class="border border-1">
+                        <p> colored_mask_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_5.png" alt="colored_mask_5.png" class="border border-1">
+                        <p> colored_mask_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_6.png" alt="colored_mask_6.png" class="border border-1">
+                        <p> colored_mask_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/colored_mask_7.png" alt="colored_mask_7.png" class="border border-1">
+                        <p> colored_mask_7.png </p> 
+                    </div></div><h2>depth_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_0.png" alt="depth_image_0.png" class="border border-1">
+                        <p> depth_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_1.png" alt="depth_image_1.png" class="border border-1">
+                        <p> depth_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_2.png" alt="depth_image_2.png" class="border border-1">
+                        <p> depth_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_3.png" alt="depth_image_3.png" class="border border-1">
+                        <p> depth_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_4.png" alt="depth_image_4.png" class="border border-1">
+                        <p> depth_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_5.png" alt="depth_image_5.png" class="border border-1">
+                        <p> depth_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_6.png" alt="depth_image_6.png" class="border border-1">
+                        <p> depth_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/depth_image_7.png" alt="depth_image_7.png" class="border border-1">
+                        <p> depth_image_7.png </p> 
+                    </div></div><h2>voted_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/voted_mask_0.png" alt="voted_mask_0.png" class="border border-1">
+                        <p> voted_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/voted_mask_1.png" alt="voted_mask_1.png" class="border border-1">
+                        <p> voted_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/voted_mask_2.png" alt="voted_mask_2.png" class="border border-1">
+                        <p> voted_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/voted_mask_3.png" alt="voted_mask_3.png" class="border border-1">
+                        <p> voted_mask_3.png </p> 
+                    </div></div><h2>final_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/final_mask_0.png" alt="final_mask_0.png" class="border border-1">
+                        <p> final_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/final_mask_1.png" alt="final_mask_1.png" class="border border-1">
+                        <p> final_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/final_mask_2.png" alt="final_mask_2.png" class="border border-1">
+                        <p> final_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/final_mask_3.png" alt="final_mask_3.png" class="border border-1">
+                        <p> final_mask_3.png </p> 
+                    </div></div><h2>Visualization Plots</h2><div class='grid grid-cols-5'>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> orig_mask_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> voted_masks_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_0/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> final_masks_sets_plot.png </p> 
+                </div></div>
+        <div>
+            <h1 class='text-xl'>Iteration: iter_1</h1>
+            <p class="mt-4"> Generated caption: A realistic image of a grassy field with a cat laying in the grass. </p>
+            <p class="mt-4"> Image labels (used for segmentation): ['art, branch, cat, drawing, green, hide, illustration, jungle, lay, lush, plant, relax, tabby, tree, vegetation', 'cat, drawing, field, fox, grass, green, hide, lay, lush, sleep', 'brush, cat, fern, grass, green, hide, lay, lush, plant, vegetation, white', 'black, cat, drawing, fern, grass, green, greenery, hide, jungle, lay, lush, plant, sit, stare, vegetation', 'black, cat, field, grass, green, illustration, lay, lush, plant, white', 'cat, grass, green, hide, illustration, lay, lush, plant, relax, sit, vegetation', 'cat, drawing, grass, green, hide, illustration, image, lay, lush, plant, vegetation, white', 'cat, drawing, grass, green, hide, illustration, lush, plant, sit, tabby, vegetation, white'] </p>
+        <h2>Input & Output</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/input_image.png" alt="input_image.png" class="border border-1">
+                        <p> input_image.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/combined_mask.png" alt="combined_mask.png" class="border border-1">
+                        <p> combined_mask.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/segmented_sketch.png" alt="segmented_sketch.png" class="border border-1">
+                        <p> segmented_sketch.png </p> 
+                    </div></div><h2>real_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_0.png" alt="real_image_0.png" class="border border-1">
+                        <p> real_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_1.png" alt="real_image_1.png" class="border border-1">
+                        <p> real_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_2.png" alt="real_image_2.png" class="border border-1">
+                        <p> real_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_3.png" alt="real_image_3.png" class="border border-1">
+                        <p> real_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_4.png" alt="real_image_4.png" class="border border-1">
+                        <p> real_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_5.png" alt="real_image_5.png" class="border border-1">
+                        <p> real_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_6.png" alt="real_image_6.png" class="border border-1">
+                        <p> real_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_image_7.png" alt="real_image_7.png" class="border border-1">
+                        <p> real_image_7.png </p> 
+                    </div></div><h2>real_segmentation</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_0.png" alt="real_segmentation_0.png" class="border border-1">
+                        <p> real_segmentation_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_1.png" alt="real_segmentation_1.png" class="border border-1">
+                        <p> real_segmentation_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_2.png" alt="real_segmentation_2.png" class="border border-1">
+                        <p> real_segmentation_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_3.png" alt="real_segmentation_3.png" class="border border-1">
+                        <p> real_segmentation_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_4.png" alt="real_segmentation_4.png" class="border border-1">
+                        <p> real_segmentation_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_5.png" alt="real_segmentation_5.png" class="border border-1">
+                        <p> real_segmentation_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_6.png" alt="real_segmentation_6.png" class="border border-1">
+                        <p> real_segmentation_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/real_segmentation_7.png" alt="real_segmentation_7.png" class="border border-1">
+                        <p> real_segmentation_7.png </p> 
+                    </div></div><h2>colored_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_0.png" alt="colored_mask_0.png" class="border border-1">
+                        <p> colored_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_1.png" alt="colored_mask_1.png" class="border border-1">
+                        <p> colored_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_2.png" alt="colored_mask_2.png" class="border border-1">
+                        <p> colored_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_3.png" alt="colored_mask_3.png" class="border border-1">
+                        <p> colored_mask_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_4.png" alt="colored_mask_4.png" class="border border-1">
+                        <p> colored_mask_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_5.png" alt="colored_mask_5.png" class="border border-1">
+                        <p> colored_mask_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_6.png" alt="colored_mask_6.png" class="border border-1">
+                        <p> colored_mask_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/colored_mask_7.png" alt="colored_mask_7.png" class="border border-1">
+                        <p> colored_mask_7.png </p> 
+                    </div></div><h2>depth_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_0.png" alt="depth_image_0.png" class="border border-1">
+                        <p> depth_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_1.png" alt="depth_image_1.png" class="border border-1">
+                        <p> depth_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_2.png" alt="depth_image_2.png" class="border border-1">
+                        <p> depth_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_3.png" alt="depth_image_3.png" class="border border-1">
+                        <p> depth_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_4.png" alt="depth_image_4.png" class="border border-1">
+                        <p> depth_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_5.png" alt="depth_image_5.png" class="border border-1">
+                        <p> depth_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_6.png" alt="depth_image_6.png" class="border border-1">
+                        <p> depth_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/depth_image_7.png" alt="depth_image_7.png" class="border border-1">
+                        <p> depth_image_7.png </p> 
+                    </div></div><h2>voted_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_0.png" alt="voted_mask_0.png" class="border border-1">
+                        <p> voted_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_1.png" alt="voted_mask_1.png" class="border border-1">
+                        <p> voted_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_2.png" alt="voted_mask_2.png" class="border border-1">
+                        <p> voted_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_3.png" alt="voted_mask_3.png" class="border border-1">
+                        <p> voted_mask_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_4.png" alt="voted_mask_4.png" class="border border-1">
+                        <p> voted_mask_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_5.png" alt="voted_mask_5.png" class="border border-1">
+                        <p> voted_mask_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_6.png" alt="voted_mask_6.png" class="border border-1">
+                        <p> voted_mask_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_mask_7.png" alt="voted_mask_7.png" class="border border-1">
+                        <p> voted_mask_7.png </p> 
+                    </div></div><h2>final_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/final_mask_0.png" alt="final_mask_0.png" class="border border-1">
+                        <p> final_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/final_mask_1.png" alt="final_mask_1.png" class="border border-1">
+                        <p> final_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/final_mask_2.png" alt="final_mask_2.png" class="border border-1">
+                        <p> final_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/final_mask_3.png" alt="final_mask_3.png" class="border border-1">
+                        <p> final_mask_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/final_mask_4.png" alt="final_mask_4.png" class="border border-1">
+                        <p> final_mask_4.png </p> 
+                    </div></div><h2>Visualization Plots</h2><div class='grid grid-cols-5'>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> orig_mask_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> voted_masks_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_1/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> final_masks_sets_plot.png </p> 
+                </div></div>
+        <div>
+            <h1 class='text-xl'>Iteration: iter_2</h1>
+            <p class="mt-4"> Generated caption: A realistic image of a grassy field with a dog standing in it. </p>
+            <p class="mt-4"> Image labels (used for segmentation): ['blow, dog, field, golden retriever, grass, grassy, green, lush, retriever, run, stand, wind, yellow', 'brown, dog, field, grass, green, lush, neckband, plant, stand, vegetation', 'blow, field, grass, green, lush, plant, vegetation, wheat field, white, wind', 'black, dog, field, grass, green, lush, stand, wheat field, white, wind', 'dog, drawing, field, grass, green, illustration, lush, reed, stand, white', 'dog, field, grass, grassy, green, laboratory, labrador, lush, stand, white', 'drawing, grass, green, lush, pattern, plant, reed, vegetation, weed, wind', 'blow, grass, green, image, lush, pattern, plant, reed, sand, vegetation, wind'] </p>
+        <h2>Input & Output</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/input_image.png" alt="input_image.png" class="border border-1">
+                        <p> input_image.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/combined_mask.png" alt="combined_mask.png" class="border border-1">
+                        <p> combined_mask.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/segmented_sketch.png" alt="segmented_sketch.png" class="border border-1">
+                        <p> segmented_sketch.png </p> 
+                    </div></div><h2>real_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_0.png" alt="real_image_0.png" class="border border-1">
+                        <p> real_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_1.png" alt="real_image_1.png" class="border border-1">
+                        <p> real_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_2.png" alt="real_image_2.png" class="border border-1">
+                        <p> real_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_3.png" alt="real_image_3.png" class="border border-1">
+                        <p> real_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_4.png" alt="real_image_4.png" class="border border-1">
+                        <p> real_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_5.png" alt="real_image_5.png" class="border border-1">
+                        <p> real_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_6.png" alt="real_image_6.png" class="border border-1">
+                        <p> real_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_image_7.png" alt="real_image_7.png" class="border border-1">
+                        <p> real_image_7.png </p> 
+                    </div></div><h2>real_segmentation</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_0.png" alt="real_segmentation_0.png" class="border border-1">
+                        <p> real_segmentation_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_1.png" alt="real_segmentation_1.png" class="border border-1">
+                        <p> real_segmentation_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_2.png" alt="real_segmentation_2.png" class="border border-1">
+                        <p> real_segmentation_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_3.png" alt="real_segmentation_3.png" class="border border-1">
+                        <p> real_segmentation_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_4.png" alt="real_segmentation_4.png" class="border border-1">
+                        <p> real_segmentation_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_5.png" alt="real_segmentation_5.png" class="border border-1">
+                        <p> real_segmentation_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_6.png" alt="real_segmentation_6.png" class="border border-1">
+                        <p> real_segmentation_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/real_segmentation_7.png" alt="real_segmentation_7.png" class="border border-1">
+                        <p> real_segmentation_7.png </p> 
+                    </div></div><h2>colored_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_0.png" alt="colored_mask_0.png" class="border border-1">
+                        <p> colored_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_1.png" alt="colored_mask_1.png" class="border border-1">
+                        <p> colored_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_2.png" alt="colored_mask_2.png" class="border border-1">
+                        <p> colored_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_3.png" alt="colored_mask_3.png" class="border border-1">
+                        <p> colored_mask_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_4.png" alt="colored_mask_4.png" class="border border-1">
+                        <p> colored_mask_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_5.png" alt="colored_mask_5.png" class="border border-1">
+                        <p> colored_mask_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_6.png" alt="colored_mask_6.png" class="border border-1">
+                        <p> colored_mask_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/colored_mask_7.png" alt="colored_mask_7.png" class="border border-1">
+                        <p> colored_mask_7.png </p> 
+                    </div></div><h2>depth_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_0.png" alt="depth_image_0.png" class="border border-1">
+                        <p> depth_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_1.png" alt="depth_image_1.png" class="border border-1">
+                        <p> depth_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_2.png" alt="depth_image_2.png" class="border border-1">
+                        <p> depth_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_3.png" alt="depth_image_3.png" class="border border-1">
+                        <p> depth_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_4.png" alt="depth_image_4.png" class="border border-1">
+                        <p> depth_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_5.png" alt="depth_image_5.png" class="border border-1">
+                        <p> depth_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_6.png" alt="depth_image_6.png" class="border border-1">
+                        <p> depth_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/depth_image_7.png" alt="depth_image_7.png" class="border border-1">
+                        <p> depth_image_7.png </p> 
+                    </div></div><h2>voted_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/voted_mask_0.png" alt="voted_mask_0.png" class="border border-1">
+                        <p> voted_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/voted_mask_1.png" alt="voted_mask_1.png" class="border border-1">
+                        <p> voted_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/voted_mask_2.png" alt="voted_mask_2.png" class="border border-1">
+                        <p> voted_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/voted_mask_3.png" alt="voted_mask_3.png" class="border border-1">
+                        <p> voted_mask_3.png </p> 
+                    </div></div><h2>final_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/final_mask_0.png" alt="final_mask_0.png" class="border border-1">
+                        <p> final_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/final_mask_1.png" alt="final_mask_1.png" class="border border-1">
+                        <p> final_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/final_mask_2.png" alt="final_mask_2.png" class="border border-1">
+                        <p> final_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/final_mask_3.png" alt="final_mask_3.png" class="border border-1">
+                        <p> final_mask_3.png </p> 
+                    </div></div><h2>Visualization Plots</h2><div class='grid grid-cols-5'>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> orig_mask_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> voted_masks_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_2/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> final_masks_sets_plot.png </p> 
+                </div></div>
+        <div>
+            <h1 class='text-xl'>Iteration: iter_3</h1>
+            <p class="mt-4"> Generated caption: A realistic image of a snowy mountain with a flock of birds flying across it. </p>
+            <p class="mt-4"> Image labels (used for segmentation): ['backdrop, bird, blanket, crow, eagle, flock, fly, mountain, peak, sky, snowy', 'bird, blanket, cloud, cloudy, crow, flock, fly, fog, mountain, mountain landscape, sky, snowy', 'bird, blanket, drawing, flock, fly, landscape, mountain, mountain landscape, pine, pine forest, sky, snow, snowy, tree', 'bird, blanket, flock, fly, mountain, mountain landscape, pine, sky, snow, snowy, tree', 'bird, blanket, cloudy, flock, fly, formation, mountain, sky, snowy, volcano', 'bird, blanket, fly, landscape, mountain, mountain landscape, sky, snow, snowy, stand, tree, winter', 'bird, blanket, fir tree, flock, fly, landscape, mountain, mountain landscape, pine, sky, snow, snowy, tree, winter', 'bird, blanket, cloud, flock, fly, fog, mountain, mountain landscape, mountain range, peak, sky, snowy'] </p>
+        <h2>Input & Output</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/input_image.png" alt="input_image.png" class="border border-1">
+                        <p> input_image.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/combined_mask.png" alt="combined_mask.png" class="border border-1">
+                        <p> combined_mask.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/segmented_sketch.png" alt="segmented_sketch.png" class="border border-1">
+                        <p> segmented_sketch.png </p> 
+                    </div></div><h2>real_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_0.png" alt="real_image_0.png" class="border border-1">
+                        <p> real_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_1.png" alt="real_image_1.png" class="border border-1">
+                        <p> real_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_2.png" alt="real_image_2.png" class="border border-1">
+                        <p> real_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_3.png" alt="real_image_3.png" class="border border-1">
+                        <p> real_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_4.png" alt="real_image_4.png" class="border border-1">
+                        <p> real_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_5.png" alt="real_image_5.png" class="border border-1">
+                        <p> real_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_6.png" alt="real_image_6.png" class="border border-1">
+                        <p> real_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_image_7.png" alt="real_image_7.png" class="border border-1">
+                        <p> real_image_7.png </p> 
+                    </div></div><h2>real_segmentation</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_0.png" alt="real_segmentation_0.png" class="border border-1">
+                        <p> real_segmentation_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_1.png" alt="real_segmentation_1.png" class="border border-1">
+                        <p> real_segmentation_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_2.png" alt="real_segmentation_2.png" class="border border-1">
+                        <p> real_segmentation_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_3.png" alt="real_segmentation_3.png" class="border border-1">
+                        <p> real_segmentation_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_4.png" alt="real_segmentation_4.png" class="border border-1">
+                        <p> real_segmentation_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_5.png" alt="real_segmentation_5.png" class="border border-1">
+                        <p> real_segmentation_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_6.png" alt="real_segmentation_6.png" class="border border-1">
+                        <p> real_segmentation_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/real_segmentation_7.png" alt="real_segmentation_7.png" class="border border-1">
+                        <p> real_segmentation_7.png </p> 
+                    </div></div><h2>colored_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_0.png" alt="colored_mask_0.png" class="border border-1">
+                        <p> colored_mask_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_1.png" alt="colored_mask_1.png" class="border border-1">
+                        <p> colored_mask_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_2.png" alt="colored_mask_2.png" class="border border-1">
+                        <p> colored_mask_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_3.png" alt="colored_mask_3.png" class="border border-1">
+                        <p> colored_mask_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_4.png" alt="colored_mask_4.png" class="border border-1">
+                        <p> colored_mask_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_5.png" alt="colored_mask_5.png" class="border border-1">
+                        <p> colored_mask_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_6.png" alt="colored_mask_6.png" class="border border-1">
+                        <p> colored_mask_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/colored_mask_7.png" alt="colored_mask_7.png" class="border border-1">
+                        <p> colored_mask_7.png </p> 
+                    </div></div><h2>depth_image</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_0.png" alt="depth_image_0.png" class="border border-1">
+                        <p> depth_image_0.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_1.png" alt="depth_image_1.png" class="border border-1">
+                        <p> depth_image_1.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_2.png" alt="depth_image_2.png" class="border border-1">
+                        <p> depth_image_2.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_3.png" alt="depth_image_3.png" class="border border-1">
+                        <p> depth_image_3.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_4.png" alt="depth_image_4.png" class="border border-1">
+                        <p> depth_image_4.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_5.png" alt="depth_image_5.png" class="border border-1">
+                        <p> depth_image_5.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_6.png" alt="depth_image_6.png" class="border border-1">
+                        <p> depth_image_6.png </p> 
+                    </div>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/depth_image_7.png" alt="depth_image_7.png" class="border border-1">
+                        <p> depth_image_7.png </p> 
+                    </div></div><h2>voted_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/voted_mask_0.png" alt="voted_mask_0.png" class="border border-1">
+                        <p> voted_mask_0.png </p> 
+                    </div></div><h2>final_mask</h2><div class='grid grid-cols-5'>
+                    <div class="image-container">
+                        <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/final_mask_0.png" alt="final_mask_0.png" class="border border-1">
+                        <p> final_mask_0.png </p> 
+                    </div></div><h2>Visualization Plots</h2><div class='grid grid-cols-5'>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/orig_mask_sets_plot.png" alt="orig_mask_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> orig_mask_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/voted_masks_sets_plot.png" alt="voted_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> voted_masks_sets_plot.png </p> 
+                </div>
+                <div class="w-full h-full p-6 col-span-5">
+                    <img src="https://github.com/miatang13/results-static-page/raw/main/SketchyScene7k_iterative_output/test/L0_sample1/iter_3/final_masks_sets_plot.png" alt="final_masks_sets_plot.png" class="border border-1 w-full h-full">
+                    <p> final_masks_sets_plot.png </p> 
+                </div></div>
+    </body>
+    </html>
+    

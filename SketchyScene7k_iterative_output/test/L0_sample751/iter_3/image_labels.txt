@@ -1,0 +1,1 @@
+['curve, line, pattern, white', 'pattern, white', 'curve, gray, line, pattern, wave, white', 'pattern, white', 'sky', 'wall, lamp, ceiling, room, wall lamp, white', 'black, curve, design, illustration, line, pattern, shape, strip, wave, white', 'face, grid, photo, white']
