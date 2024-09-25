@@ -1,0 +1,1 @@
+['art, baseball glove, cartoon, girl, illustration', 'baseball glove, cartoon, girl, illustration', 'art, cartoon, girl, illustration', 'animation film, cartoon, person, illustration, poster', 'art, cartoon, girl, illustration, poster', 'art, cartoon, illustration', 'art, cartoon, girl, illustration', 'art, barbie, doll, girl, illustration']
