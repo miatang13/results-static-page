@@ -1,8 +1,8 @@
 {
     "mean_iou": 0.3932155558194078,
     "mean_dice": 0.4794820108293974,
-    "missed_matches": 12,
+    "missed_matches": 13,
     "total_matches": 15,
-    "success_rate": 0.2,
-    "time": "2024-09-24 00:34:21"
+    "success_rate": 0.13333333333333333,
+    "time": "2024-09-26 23:35:24"
 }
