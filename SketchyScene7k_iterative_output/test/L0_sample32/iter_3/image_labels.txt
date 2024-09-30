@@ -1,1 +1,0 @@
-['lamp, table lamp, floor, lamp shade, room, stool, white', 'lamp, floor, room, stool, white', 'floor, plain, stool, white', 'white', 'wall, floor, room, stool, white', 'toilet paper, paper, plain, sheet, square, stool, white', 'toilet paper, paper, plain, sheet, tape, white', 'white']

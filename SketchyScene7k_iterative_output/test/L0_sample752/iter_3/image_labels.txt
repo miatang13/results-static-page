@@ -1,1 +1,0 @@
-['pattern, scale, white', 'black, circle, design, illustration, pattern, polka dot, dot, texture, white', 'black, circle, gray, hole, pattern, polka dot, dot, texture', 'black, circle, hole, pattern, dot, white', 'sea', 'cloudy, fly, polka dot, sky, dot', 'black, hole, pattern, polka dot, silver, dot, texture', 'hole, pattern, silver, dot']

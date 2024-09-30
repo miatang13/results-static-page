@@ -1,1 +1,0 @@
-['art, bird, drawing, fly, sky, tree', 'art, bird, calm, fly, lake, sky, tree, water', 'bird, sit, tree', 'art, bird, illustration, root, sky, tree', 'art, bird, black, wall, drawing, tree, white', 'bird, forest, illustration, pattern, tree', 'art, bird, tree, water', 'bird, illustration, pattern, tree']
