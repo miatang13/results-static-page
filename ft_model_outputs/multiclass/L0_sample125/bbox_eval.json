@@ -33,7 +33,7 @@
             0.0,
             0.0,
             0.0,
-            0.9911594602027672,
+            0.9911605887029347,
             0.0,
             0.0,
             0.0,
@@ -54,10 +54,10 @@
     "num_matches": 1,
     "num_GT_boxes": 23,
     "used_labels": [
-        "road",
-        "cloud",
-        "tree",
         "house",
-        "sun"
+        "tree",
+        "cloud",
+        "sun",
+        "road"
     ]
 }

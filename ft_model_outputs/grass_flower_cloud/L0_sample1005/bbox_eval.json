@@ -72,14 +72,14 @@
     "num_matches": 3,
     "num_GT_boxes": 15,
     "used_labels": [
-        "pig",
         "rabbit",
+        "tree",
+        "pig",
+        "sheep",
         "cloud",
         "others",
-        "tree",
-        "cow",
+        "sun",
         "mountain",
-        "sheep",
-        "sun"
+        "cow"
     ]
 }
