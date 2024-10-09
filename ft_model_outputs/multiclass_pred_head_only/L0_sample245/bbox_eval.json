@@ -1,0 +1,13 @@
+{
+    "matched_indices": [],
+    "iou_matrix": [],
+    "num_matches": 0,
+    "num_GT_boxes": 13,
+    "used_labels": [
+        "cloud",
+        "people",
+        "tree",
+        "flower",
+        "bench"
+    ]
+}
