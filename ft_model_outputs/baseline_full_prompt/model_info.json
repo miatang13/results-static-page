@@ -1,4 +1,0 @@
-{
-    "model_config": "/disk/miatang/external_git/mmdetection/configs/grounding_dino/grounding_dino_swin-t_pretrain_obj365_goldg_cap4m.py",
-    "weights": "/disk/miatang/external_git/mmdetection/groundingdino_swint_ogc_mmdet-822d7e9d.pth"
-}

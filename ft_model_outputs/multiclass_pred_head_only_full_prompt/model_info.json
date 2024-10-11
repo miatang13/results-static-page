@@ -1,4 +1,0 @@
-{
-    "model_config": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_multiclass_pred_head_only/grounding_dino_multiclass_pred_head_only.py",
-    "weights": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_multiclass_pred_head_only/best_coco_bbox_mAP_epoch_26.pth"
-}
