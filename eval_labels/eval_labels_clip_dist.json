@@ -1,0 +1,188 @@
+[
+    {
+        "Sketch Name": "L0_sample1",
+        "GT Label": "grape",
+        "Closest Neighbor": "grape",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample1",
+        "GT Label": "flower",
+        "Closest Neighbor": "flower",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample1",
+        "GT Label": "bottle",
+        "Closest Neighbor": "bottle",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample1",
+        "GT Label": "grass",
+        "Closest Neighbor": "grass",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample10",
+        "GT Label": "chair",
+        "Closest Neighbor": "chair",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample10",
+        "GT Label": "dog",
+        "Closest Neighbor": "dog",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample10",
+        "GT Label": "table",
+        "Closest Neighbor": "stand",
+        "Cosine Distance": 0.13893043994903564
+    },
+    {
+        "Sketch Name": "L0_sample10",
+        "GT Label": "cloud",
+        "Closest Neighbor": "child",
+        "Cosine Distance": 0.14141583442687988
+    },
+    {
+        "Sketch Name": "L0_sample10",
+        "GT Label": "people",
+        "Closest Neighbor": "child",
+        "Cosine Distance": 0.1012718677520752
+    },
+    {
+        "Sketch Name": "L0_sample10",
+        "GT Label": "tree",
+        "Closest Neighbor": "palm tree",
+        "Cosine Distance": 0.12616103887557983
+    },
+    {
+        "Sketch Name": "L0_sample10",
+        "GT Label": "grass",
+        "Closest Neighbor": "girl",
+        "Cosine Distance": 0.15245068073272705
+    },
+    {
+        "Sketch Name": "L0_sample11",
+        "GT Label": "chair",
+        "Closest Neighbor": "chair",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample11",
+        "GT Label": "dog",
+        "Closest Neighbor": "dog",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample11",
+        "GT Label": "sofa",
+        "Closest Neighbor": "armchair",
+        "Cosine Distance": 0.18169009685516357
+    },
+    {
+        "Sketch Name": "L0_sample11",
+        "GT Label": "table",
+        "Closest Neighbor": "table",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample11",
+        "GT Label": "people",
+        "Closest Neighbor": "woman",
+        "Cosine Distance": 0.10188966989517212
+    },
+    {
+        "Sketch Name": "L0_sample11",
+        "GT Label": "cat",
+        "Closest Neighbor": "cat",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample12",
+        "GT Label": "chair",
+        "Closest Neighbor": "armchair",
+        "Cosine Distance": 0.06436789035797119
+    },
+    {
+        "Sketch Name": "L0_sample12",
+        "GT Label": "dog",
+        "Closest Neighbor": "pet",
+        "Cosine Distance": 0.08595234155654907
+    },
+    {
+        "Sketch Name": "L0_sample12",
+        "GT Label": "sofa",
+        "Closest Neighbor": "couch",
+        "Cosine Distance": 0.0866808295249939
+    },
+    {
+        "Sketch Name": "L0_sample12",
+        "GT Label": "table",
+        "Closest Neighbor": "table",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample12",
+        "GT Label": "people",
+        "Closest Neighbor": "child",
+        "Cosine Distance": 0.1012718677520752
+    },
+    {
+        "Sketch Name": "L0_sample12",
+        "GT Label": "cat",
+        "Closest Neighbor": "pet",
+        "Cosine Distance": 0.10960221290588379
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "chair",
+        "Closest Neighbor": "child",
+        "Cosine Distance": 0.17950588464736938
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "dog",
+        "Closest Neighbor": "dog",
+        "Cosine Distance": 0.0
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "cloud",
+        "Closest Neighbor": "child",
+        "Cosine Distance": 0.14141583442687988
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "table",
+        "Closest Neighbor": "child",
+        "Cosine Distance": 0.15236163139343262
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "people",
+        "Closest Neighbor": "person",
+        "Cosine Distance": 0.06318444013595581
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "tree",
+        "Closest Neighbor": "child",
+        "Cosine Distance": 0.16396832466125488
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "cat",
+        "Closest Neighbor": "dog",
+        "Cosine Distance": 0.08779311180114746
+    },
+    {
+        "Sketch Name": "L0_sample13",
+        "GT Label": "sun",
+        "Closest Neighbor": "man",
+        "Cosine Distance": 0.1367504596710205
+    }
+]

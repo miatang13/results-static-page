@@ -2,3 +2,4 @@
 batch_output/**/*.npz
 **_local_htmls/
 *.zip
+~/nltk_data/
