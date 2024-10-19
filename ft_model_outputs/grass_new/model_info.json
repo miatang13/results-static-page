@@ -1,0 +1,4 @@
+{
+    "model_config": "/disk/miatang/external_git/mmdetection/work_dirs/grass/grounding_dino_grass.py",
+    "weights": "/disk/miatang/external_git/mmdetection/work_dirs/grass/best_coco_bbox_mAP_epoch_19.pth"
+}
