@@ -1,0 +1,568 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>COCO Dataset Viewer</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f5f5f5;
+            }
+            .controls {
+                margin-bottom: 20px;
+                padding: 10px;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            select {
+                padding: 8px;
+                font-size: 16px;
+                border-radius: 4px;
+                border: 1px solid #ddd;
+            }
+            .image-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 20px;
+                padding: 20px;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            .image-container {
+                position: relative;
+                padding: 10px;
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+            .image-container img {
+                width: 100%;
+                height: auto;
+                border-radius: 3px;
+            }
+            .image-info {
+                margin-top: 8px;
+                font-size: 14px;
+                color: #666;
+            }
+            .dataset-section {
+                display: none;
+            }
+            .dataset-section.active {
+                display: block;
+            }
+            h2 {
+                margin-top: 0;
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="controls">
+            <h2>COCO Dataset Viewer</h2>
+            <select id="datasetSelect" onchange="showDataset(this.value)">
+                <option value="train">Training Set</option>
+                <option value="test">Test Set</option>
+                <option value="val">Validation Set</option>
+            </select>
+        </div>
+    <div id="train" class="dataset-section"><div class="image-grid">
+                <div class="image-container">
+                    <img src="images/train_L0_sample1.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample1.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample11.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample11.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample14.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample14.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample29.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample29.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample35.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample35.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample37.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample37.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample38.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample38.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample39.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample39.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample40.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample40.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample41.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample41.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample42.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample42.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample43.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample43.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample44.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample44.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample48.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample48.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample53.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample53.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample58.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample58.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample64.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample64.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample76.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample76.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample85.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample85.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/train_L0_sample88.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample88.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            </div></div><div id="test" class="dataset-section"><div class="image-grid">
+                <div class="image-container">
+                    <img src="images/test_L0_sample2.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample2.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample3.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample3.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample4.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample4.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample5.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample5.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample6.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample6.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample7.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample7.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample8.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample8.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample9.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample9.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample10.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample10.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample11.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample11.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample12.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample12.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample13.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample13.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample14.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample14.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample15.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample15.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample16.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample16.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample17.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample17.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample18.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample18.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample19.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample19.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample20.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample20.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/test_L0_sample23.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample23.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            </div></div><div id="val" class="dataset-section"><div class="image-grid">
+                <div class="image-container">
+                    <img src="images/val_L0_sample4.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample4.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample9.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample9.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample10.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample10.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample20.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample20.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample21.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample21.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample28.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample28.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample38.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample38.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample41.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample41.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample44.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample44.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample49.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample49.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample56.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample56.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample61.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample61.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample63.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample63.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample64.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample64.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample65.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample65.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample74.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample74.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample79.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample79.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample80.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample80.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample81.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample81.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            
+                <div class="image-container">
+                    <img src="images/val_L0_sample96.png" alt="Dataset Image">
+                    <div class="image-info">
+                        <div>File: L0_sample96.png</div>
+                        <div>Size: 750x750</div>
+                    </div>
+                </div>
+            </div></div>
+        <script>
+            function showDataset(datasetName) {
+                // Hide all sections
+                document.querySelectorAll('.dataset-section').forEach(section => {
+                    section.style.display = 'none';
+                });
+                // Show selected section
+                document.getElementById(datasetName).style.display = 'block';
+            }
+            
+            // Show training set by default
+            showDataset('train');
+        </script>
+    </body>
+    </html>
+    
