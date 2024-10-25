@@ -1,4 +1,0 @@
-{
-    "model_config": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_intersect_full_ft_early_stop/grounding_dino_intersect_full_ft_20_epochs.py",
-    "weights": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_intersect_full_ft_early_stop/best_coco_bbox_mAP_epoch_17.pth"
-}

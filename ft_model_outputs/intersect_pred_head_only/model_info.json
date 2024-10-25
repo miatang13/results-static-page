@@ -1,4 +1,0 @@
-{
-    "model_config": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_intersect_pred_head/grounding_dino_intersect_pred_head_only.py",
-    "weights": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_intersect_pred_head/best_coco_bbox_mAP_epoch_16.pth"
-}

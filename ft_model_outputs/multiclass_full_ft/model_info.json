@@ -1,4 +1,0 @@
-{
-    "model_config": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_multiclass_full_ft_50epochs/grounding_dino_multiclass_full_ft.py",
-    "weights": "/disk/miatang/external_git/mmdetection/work_dirs/sketch_multiclass_full_ft_50epochs/best_coco_bbox_mAP_epoch_18.pth"
-}

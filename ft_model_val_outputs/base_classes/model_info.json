@@ -1,4 +1,0 @@
-{
-    "model_config": "/disk/miatang/external_git/mmdetection/work_dirs/base_cat_full_ft_longer/intersect_full_ft.py",
-    "weights": "/disk/miatang/external_git/mmdetection/work_dirs/base_cat_full_ft_longer/best_coco_bbox_mAP_iter_45300.pth"
-}
