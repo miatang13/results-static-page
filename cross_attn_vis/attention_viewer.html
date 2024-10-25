@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Generation Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .controls {
+            margin-bottom: 20px;
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+        select {
+            padding: 8px;
+            font-size: 16px;
+            margin-right: 10px;
+            border-radius: 4px;
+        }
+        .folder-container {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .folder-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            color: #333;
+        }
+        .image-row {
+            display: grid;
+            grid-template-columns: 250px 250px minmax(800px, 1fr);
+            gap: 20px;
+            align-items: center;
+        }
+        .image-container {
+            text-align: center;
+        }
+        .image-container.small-image img {
+            max-width: 250px;
+            height: auto;
+        }
+        .image-container.large-image img {
+            width: 100%;
+            height: auto;
+        }
+        .image-container img {
+            border: 1px solid #eee;
+            border-radius: 5px;
+            background: white;
+        }
+        .image-title {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Generation Viewer</h1>
+    <div class="controls">
+        <label for="timestep">Select Timestep:</label>
+        <select id="timestep" onchange="updateImages()">
+            <option value="000">000</option> <option value="001">001</option> <option value="002">002</option> <option value="003">003</option> <option value="004">004</option> <option value="005">005</option> <option value="006">006</option> <option value="007">007</option> <option value="008">008</option> <option value="009">009</option> <option value="010">010</option> <option value="011">011</option> <option value="012">012</option> <option value="013">013</option> <option value="014">014</option> <option value="015">015</option> <option value="016">016</option> <option value="017">017</option> <option value="018">018</option> <option value="019">019</option> <option value="020">020</option> <option value="021">021</option> <option value="022">022</option> <option value="023">023</option> <option value="024">024</option> <option value="025">025</option> <option value="026">026</option> <option value="027">027</option> <option value="028">028</option> <option value="029">029</option> <option value="030">030</option> <option value="031">031</option> <option value="032">032</option> <option value="033">033</option> <option value="034">034</option> <option value="035">035</option> <option value="036">036</option> <option value="037">037</option> <option value="038">038</option> <option value="039">039</option> <option value="040">040</option> <option value="041">041</option> <option value="042">042</option> <option value="043">043</option> <option value="044">044</option> <option value="045">045</option> <option value="046">046</option> <option value="047">047</option> <option value="048">048</option> <option value="049">049</option> <option value="050">050</option> <option value="051">051</option> <option value="052">052</option> <option value="053">053</option> <option value="054">054</option> <option value="055">055</option> <option value="056">056</option> <option value="057">057</option> <option value="058">058</option> <option value="059">059</option> <option value="060">060</option> <option value="061">061</option> <option value="062">062</option> <option value="063">063</option> <option value="064">064</option> <option value="065">065</option> <option value="066">066</option> <option value="067">067</option> <option value="068">068</option> <option value="069">069</option>
+        </select>
+    </div>
+    <div id="foldersContainer">
+    </div>
+
+    <script>
+        const folders = ['L0_sample1016', 'L0_sample1013', 'L0_sample1000', 'L0_sample1002', 'L0_sample1009', 'L0_sample1040', 'L0_sample104', 'L0_sample1001', 'L0_sample101', 'L0_sample1030', 'L0_sample1024', 'L0_sample1042', 'L0_sample1038', 'L0_sample1014', 'L0_sample1029', 'L0_sample1041', 'L0_sample1028', 'L0_sample1027', 'L0_sample1019', 'L0_sample1010', 'L0_sample1005', 'L0_sample1026', 'L0_sample1', 'L0_sample1033', 'L0_sample1023', 'L0_sample1008', 'L0_sample1004', 'L0_sample1021', 'L0_sample1025', 'L0_sample1018', 'L0_sample1012', 'L0_sample1015', 'L0_sample1039', 'L0_sample1020', 'L0_sample1032', 'L0_sample10', 'L0_sample1007', 'L0_sample100', 'L0_sample1003', 'L0_sample1036', 'L0_sample1022', 'L0_sample103', 'L0_sample1031', 'L0_sample1034', 'L0_sample102', 'L0_sample1011', 'L0_sample1017', 'L0_sample1035', 'L0_sample1006', 'L0_sample1037'];
+        const rootPath = '/disk/miatang/stroke-label/extern/results-static-page/cross_attn_vis';
+
+        function updateImages() {
+            const timestep = document.getElementById('timestep').value;
+            const container = document.getElementById('foldersContainer');
+            container.innerHTML = '';
+
+            folders.forEach(folder => {
+                const folderContainer = document.createElement('div');
+                folderContainer.className = 'folder-container';
+                
+                const folderTitle = document.createElement('div');
+                folderTitle.className = 'folder-title';
+                folderTitle.textContent = folder;
+                folderContainer.appendChild(folderTitle);
+                
+                const imageRow = document.createElement('div');
+                imageRow.className = 'image-row';
+                
+                // Create containers for all three image types
+                const imageTypes = [
+                    {name: 'sketch_input.png', title: 'Sketch Input', class: 'small-image'},
+                    {name: 'generated_image.png', title: 'Generated Image', class: 'small-image'},
+                    {name: `attention_step${timestep.padStart(3, '0')}.png`, title: 'Attention Map', class: 'large-image'}
+                ];
+                
+                imageTypes.forEach(imageType => {
+                    const imgContainer = document.createElement('div');
+                    imgContainer.className = `image-container ${imageType.class}`;
+                    
+                    const img = document.createElement('img');
+                    img.src = `${folder}/${imageType.name}`;
+                    img.alt = `${imageType.title} for ${folder}`;
+                    img.onerror = () => {
+                        img.src = 'data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><text x="50%" y="50%" font-size="12" text-anchor="middle" alignment-baseline="middle">Not Found</text></svg>';
+                        img.style.padding = '20px';
+                        img.style.background = '#f8f8f8';
+                    };
+                    
+                    const title = document.createElement('div');
+                    title.className = 'image-title';
+                    title.textContent = imageType.title;
+                    
+                    imgContainer.appendChild(img);
+                    imgContainer.appendChild(title);
+                    imageRow.appendChild(imgContainer);
+                });
+                
+                folderContainer.appendChild(imageRow);
+                container.appendChild(folderContainer);
+            });
+        }
+
+        // Initialize with first timestep
+        window.onload = updateImages;
+    </script>
+</body>
+</html>
+    
