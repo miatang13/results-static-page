@@ -6,17 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Evaluation Results</title>
         <style>
-            table {
-                width: 100%;
-                border-collapse: collapse;
+            body {
+                font-family: Arial, sans-serif;
             }
-            th, td {
-                padding: 8px;
-                text-align: left;
+            .sketch-section {
+                margin-bottom: 20px;
+                border: 1px solid #ddd;
+                padding: 10px;
+                border-radius: 8px;
+            }
+            .sketch-section h2 {
+                margin: 0;
+                background-color: #f2f2f2;
+                padding: 10px;
                 border-bottom: 1px solid #ddd;
             }
-            th {
-                background-color: #f2f2f2;
+            .labels {
+                margin-top: 10px;
+            }
+            .gt-label, .neighbor-label {
+                padding: 5px;
+                margin-right: 10px;
             }
             .highlight {
                 background-color: #ffcccb;
@@ -25,239 +35,136 @@
     </head>
     <body>
 
-        <h1>Evaluation Results</h1>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Sketch Name</th>
-                    <th>GT Label</th>
-                    <th>Closest Neighbor</th>
-                    <th>Cosine Distance</th>
-                </tr>
-            </thead>
-            <tbody>
+        <h1>Evaluation Results by Sketch</h1>
     
-        <tr class="">
-            <td>L0_sample1</td>
-            <td>grape</td>
-            <td>grape</td>
-            <td>0.0000</td>
-        </tr>
+        <div class="sketch-section">
+            <h2>Sketch: L0_sample1</h2>
+            <div class="labels">
         
-        <tr class="">
-            <td>L0_sample1</td>
-            <td>flower</td>
-            <td>flower</td>
-            <td>0.0000</td>
-        </tr>
+                <span class="gt-label ">GT: grape</span>
+                <span class="neighbor-label ">Neighbor: grape (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: flower</span>
+                <span class="neighbor-label ">Neighbor: flower (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: bottle</span>
+                <span class="neighbor-label ">Neighbor: bottle (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: grass</span>
+                <span class="neighbor-label ">Neighbor: grass (Distance: 0.0000)</span><br>
+            
+            </div>
+        </div>
         
-        <tr class="">
-            <td>L0_sample1</td>
-            <td>bottle</td>
-            <td>bottle</td>
-            <td>0.0000</td>
-        </tr>
+        <div class="sketch-section">
+            <h2>Sketch: L0_sample10</h2>
+            <div class="labels">
         
-        <tr class="">
-            <td>L0_sample1</td>
-            <td>grass</td>
-            <td>grass</td>
-            <td>0.0000</td>
-        </tr>
+                <span class="gt-label ">GT: chair</span>
+                <span class="neighbor-label ">Neighbor: chair (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: dog</span>
+                <span class="neighbor-label ">Neighbor: dog (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: table</span>
+                <span class="neighbor-label ">Neighbor: stand (Distance: 0.1389)</span><br>
+            
+                <span class="gt-label ">GT: cloud</span>
+                <span class="neighbor-label ">Neighbor: child (Distance: 0.1414)</span><br>
+            
+                <span class="gt-label ">GT: people</span>
+                <span class="neighbor-label ">Neighbor: child (Distance: 0.1013)</span><br>
+            
+                <span class="gt-label ">GT: tree</span>
+                <span class="neighbor-label ">Neighbor: palm tree (Distance: 0.1262)</span><br>
+            
+                <span class="gt-label ">GT: grass</span>
+                <span class="neighbor-label ">Neighbor: girl (Distance: 0.1525)</span><br>
+            
+            </div>
+        </div>
         
-        <tr class="">
-            <td>L0_sample10</td>
-            <td>chair</td>
-            <td>chair</td>
-            <td>0.0000</td>
-        </tr>
+        <div class="sketch-section">
+            <h2>Sketch: L0_sample11</h2>
+            <div class="labels">
         
-        <tr class="">
-            <td>L0_sample10</td>
-            <td>dog</td>
-            <td>dog</td>
-            <td>0.0000</td>
-        </tr>
+                <span class="gt-label ">GT: chair</span>
+                <span class="neighbor-label ">Neighbor: chair (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: dog</span>
+                <span class="neighbor-label ">Neighbor: dog (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: sofa</span>
+                <span class="neighbor-label ">Neighbor: armchair (Distance: 0.1817)</span><br>
+            
+                <span class="gt-label ">GT: table</span>
+                <span class="neighbor-label ">Neighbor: table (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: people</span>
+                <span class="neighbor-label ">Neighbor: woman (Distance: 0.1019)</span><br>
+            
+                <span class="gt-label ">GT: cat</span>
+                <span class="neighbor-label ">Neighbor: cat (Distance: 0.0000)</span><br>
+            
+            </div>
+        </div>
         
-        <tr class="">
-            <td>L0_sample10</td>
-            <td>table</td>
-            <td>stand</td>
-            <td>0.1389</td>
-        </tr>
+        <div class="sketch-section">
+            <h2>Sketch: L0_sample12</h2>
+            <div class="labels">
         
-        <tr class="">
-            <td>L0_sample10</td>
-            <td>cloud</td>
-            <td>child</td>
-            <td>0.1414</td>
-        </tr>
+                <span class="gt-label ">GT: chair</span>
+                <span class="neighbor-label ">Neighbor: armchair (Distance: 0.0644)</span><br>
+            
+                <span class="gt-label ">GT: dog</span>
+                <span class="neighbor-label ">Neighbor: pet (Distance: 0.0860)</span><br>
+            
+                <span class="gt-label ">GT: sofa</span>
+                <span class="neighbor-label ">Neighbor: couch (Distance: 0.0867)</span><br>
+            
+                <span class="gt-label ">GT: table</span>
+                <span class="neighbor-label ">Neighbor: table (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: people</span>
+                <span class="neighbor-label ">Neighbor: child (Distance: 0.1013)</span><br>
+            
+                <span class="gt-label ">GT: cat</span>
+                <span class="neighbor-label ">Neighbor: pet (Distance: 0.1096)</span><br>
+            
+            </div>
+        </div>
         
-        <tr class="">
-            <td>L0_sample10</td>
-            <td>people</td>
-            <td>child</td>
-            <td>0.1013</td>
-        </tr>
+        <div class="sketch-section">
+            <h2>Sketch: L0_sample13</h2>
+            <div class="labels">
         
-        <tr class="">
-            <td>L0_sample10</td>
-            <td>tree</td>
-            <td>palm tree</td>
-            <td>0.1262</td>
-        </tr>
+                <span class="gt-label ">GT: chair</span>
+                <span class="neighbor-label ">Neighbor: child (Distance: 0.1795)</span><br>
+            
+                <span class="gt-label ">GT: dog</span>
+                <span class="neighbor-label ">Neighbor: dog (Distance: 0.0000)</span><br>
+            
+                <span class="gt-label ">GT: cloud</span>
+                <span class="neighbor-label ">Neighbor: child (Distance: 0.1414)</span><br>
+            
+                <span class="gt-label ">GT: table</span>
+                <span class="neighbor-label ">Neighbor: child (Distance: 0.1524)</span><br>
+            
+                <span class="gt-label ">GT: people</span>
+                <span class="neighbor-label ">Neighbor: person (Distance: 0.0632)</span><br>
+            
+                <span class="gt-label ">GT: tree</span>
+                <span class="neighbor-label ">Neighbor: child (Distance: 0.1640)</span><br>
+            
+                <span class="gt-label ">GT: cat</span>
+                <span class="neighbor-label ">Neighbor: dog (Distance: 0.0878)</span><br>
+            
+                <span class="gt-label ">GT: sun</span>
+                <span class="neighbor-label ">Neighbor: man (Distance: 0.1368)</span><br>
+            
+            </div>
+        </div>
         
-        <tr class="">
-            <td>L0_sample10</td>
-            <td>grass</td>
-            <td>girl</td>
-            <td>0.1525</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample11</td>
-            <td>chair</td>
-            <td>chair</td>
-            <td>0.0000</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample11</td>
-            <td>dog</td>
-            <td>dog</td>
-            <td>0.0000</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample11</td>
-            <td>sofa</td>
-            <td>armchair</td>
-            <td>0.1817</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample11</td>
-            <td>table</td>
-            <td>table</td>
-            <td>0.0000</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample11</td>
-            <td>people</td>
-            <td>woman</td>
-            <td>0.1019</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample11</td>
-            <td>cat</td>
-            <td>cat</td>
-            <td>0.0000</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample12</td>
-            <td>chair</td>
-            <td>armchair</td>
-            <td>0.0644</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample12</td>
-            <td>dog</td>
-            <td>pet</td>
-            <td>0.0860</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample12</td>
-            <td>sofa</td>
-            <td>couch</td>
-            <td>0.0867</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample12</td>
-            <td>table</td>
-            <td>table</td>
-            <td>0.0000</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample12</td>
-            <td>people</td>
-            <td>child</td>
-            <td>0.1013</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample12</td>
-            <td>cat</td>
-            <td>pet</td>
-            <td>0.1096</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>chair</td>
-            <td>child</td>
-            <td>0.1795</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>dog</td>
-            <td>dog</td>
-            <td>0.0000</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>cloud</td>
-            <td>child</td>
-            <td>0.1414</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>table</td>
-            <td>child</td>
-            <td>0.1524</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>people</td>
-            <td>person</td>
-            <td>0.0632</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>tree</td>
-            <td>child</td>
-            <td>0.1640</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>cat</td>
-            <td>dog</td>
-            <td>0.0878</td>
-        </tr>
-        
-        <tr class="">
-            <td>L0_sample13</td>
-            <td>sun</td>
-            <td>man</td>
-            <td>0.1368</td>
-        </tr>
-        
-            </tbody>
-        </table>
-
     </body>
     </html>
     
