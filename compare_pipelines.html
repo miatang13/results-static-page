@@ -90,6 +90,39 @@
             .summary-table td {
                 background-color: white;
             }
+            
+            .floating-legend {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(255, 255, 255, 0.95);
+                padding: 8px 16px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+                font-family: Arial, sans-serif;
+            }
+
+            .legend-item {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .color-box {
+                width: 16px;
+                height: 16px;
+                border: 1px solid #ddd;
+            }
+
+            /* Add padding to body to prevent content from hiding under the legend */
+            body {
+                padding-top: 44px;
+            }
         </style>
         <script>
             function toggleImage(pairId) {
@@ -110,6 +143,23 @@
         </script>
     </head>
     <body>
+        <div class="floating-legend">
+            <div class="legend-item">
+                Comparison image color coding:
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #00FF00;"></div>
+                <span>Correctly labeled pixels</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #FF0000;"></div>
+                <span>Incorrectly labeled pixels</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #0000FF;"></div>
+                <span>Missing pixels</span>
+            </div>
+        </div>
     
 <h2 class="subdir-title">L0_sample1</h2>
 <div class="grid grid-cols-5">
