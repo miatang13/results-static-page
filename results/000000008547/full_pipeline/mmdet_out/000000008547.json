@@ -1,0 +1,54 @@
+{
+    "bboxes": [
+        [
+            0.14445990324020386,
+            0.03326573967933655,
+            0.9112598299980164,
+            0.9470610618591309
+        ],
+        [
+            0.0031605958938598633,
+            0.00039717555046081543,
+            0.9969081878662109,
+            0.9980806112289429
+        ],
+        [
+            0.14423438906669617,
+            0.03422120213508606,
+            0.9108784198760986,
+            0.9466958045959473
+        ],
+        [
+            0.14398768544197083,
+            0.03339660167694092,
+            0.9110935926437378,
+            0.9466058611869812
+        ],
+        [
+            0.14398768544197083,
+            0.03339660167694092,
+            0.9110935926437378,
+            0.9466058611869812
+        ]
+    ],
+    "labels": [
+        " illustration",
+        " drawing",
+        " icon",
+        " sky",
+        " fly"
+    ],
+    "scores": [
+        0.6426423788070679,
+        0.4350111484527588,
+        0.3457798957824707,
+        0.24786320328712463,
+        0.2343643307685852
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}

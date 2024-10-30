@@ -1,0 +1,54 @@
+{
+    "bboxes": [
+        [
+            0.15431717038154602,
+            0.16552099585533142,
+            0.896665096282959,
+            0.8245853185653687
+        ],
+        [
+            0.15431717038154602,
+            0.16552099585533142,
+            0.896665096282959,
+            0.8245853185653687
+        ],
+        [
+            0.0028397440910339355,
+            0.005065232515335083,
+            0.9976033568382263,
+            0.9960861206054688
+        ],
+        [
+            0.0015349984169006348,
+            0.011266946792602539,
+            0.999030351638794,
+            0.9949654340744019
+        ],
+        [
+            0.0015349984169006348,
+            0.011266946792602539,
+            0.999030351638794,
+            0.9949654340744019
+        ]
+    ],
+    "labels": [
+        " illustration",
+        " rural",
+        "black",
+        " trailer truck",
+        "black"
+    ],
+    "scores": [
+        0.6909425854682922,
+        0.6765449047088623,
+        0.31299877166748047,
+        0.30393707752227783,
+        0.21759499609470367
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}

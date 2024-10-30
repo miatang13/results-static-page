@@ -1,0 +1,30 @@
+{
+    "bboxes": [
+        [
+            0.09380017966032028,
+            0.24553632736206055,
+            0.911693811416626,
+            0.9331928491592407
+        ],
+        [
+            0.3401150405406952,
+            0.3809603750705719,
+            0.9119937419891357,
+            0.9032634496688843
+        ]
+    ],
+    "labels": [
+        "animal",
+        "animal"
+    ],
+    "scores": [
+        0.7273918986320496,
+        0.2689591944217682
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}

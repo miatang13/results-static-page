@@ -1,0 +1,38 @@
+{
+    "bboxes": [
+        [
+            0.5825382471084595,
+            0.1858609914779663,
+            0.9029074907302856,
+            0.32214468717575073
+        ],
+        [
+            0.030565515160560608,
+            0.1626315712928772,
+            0.4761437177658081,
+            0.9719264507293701
+        ],
+        [
+            0.17165088653564453,
+            0.1270751655101776,
+            0.9147676229476929,
+            0.9708892107009888
+        ]
+    ],
+    "labels": [
+        " easel",
+        " paint brush",
+        " goggles"
+    ],
+    "scores": [
+        0.7581454515457153,
+        0.6881267428398132,
+        0.5615864396095276
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}

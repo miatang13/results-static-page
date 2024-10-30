@@ -1,0 +1,54 @@
+{
+    "bboxes": [
+        [
+            0.11549016833305359,
+            0.1066022515296936,
+            0.8555328845977783,
+            0.9209491610527039
+        ],
+        [
+            0.1152476966381073,
+            0.10582777857780457,
+            0.8552790880203247,
+            0.9211913347244263
+        ],
+        [
+            0.1152476966381073,
+            0.10582777857780457,
+            0.8552790880203247,
+            0.9211913347244263
+        ],
+        [
+            0.11507591605186462,
+            0.10619932413101196,
+            0.8559237718582153,
+            0.9213612079620361
+        ],
+        [
+            0.1147138774394989,
+            0.10654425621032715,
+            0.8561254739761353,
+            0.921144962310791
+        ]
+    ],
+    "labels": [
+        " teddy",
+        " stuff",
+        " black",
+        " black",
+        "animal"
+    ],
+    "scores": [
+        0.4673101603984833,
+        0.3973369896411896,
+        0.24692054092884064,
+        0.21609646081924438,
+        0.2088397890329361
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}
