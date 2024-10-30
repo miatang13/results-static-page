@@ -5,6 +5,44 @@
         <title>Image Gallery</title>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
         <style>
+            .aggregate-metrics {
+                margin: 20px;
+                padding: 20px;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            
+            .metrics-header {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 15px;
+                color: #333;
+                font-family: Arial, sans-serif;
+            }
+            
+            .aggregate-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+                font-family: Arial, sans-serif;
+            }
+            
+            .aggregate-table th, .aggregate-table td {
+                padding: 12px;
+                border: 1px solid #dee2e6;
+                text-align: left;
+            }
+            
+            .aggregate-table th {
+                background-color: #e9ecef;
+                font-weight: bold;
+            }
+            
+            .aggregate-table tr:nth-child(even) {
+                background-color: #f8f9fa;
+            }
+            
             .subdir-title {
                 font-family: Arial, sans-serif;
                 color: #333;
@@ -23,7 +61,7 @@
                 margin: 5px;
             }
 
-             .toggle-btn {
+            .toggle-btn {
                 background: gray;
                 color: white;
                 border: none;
@@ -68,7 +106,7 @@
                 background-color: white;
             }
             
-             .summary-table {
+            .summary-table {
                 width: 100%;
                 margin: 10px 5px;
                 border-collapse: collapse;
@@ -143,6 +181,73 @@
         </script>
     </head>
     <body>
+    
+        <div class="aggregate-metrics">
+            <div class="metrics-header">Aggregate Metrics Across All Samples</div>
+            <table class="aggregate-table">
+                <thead>
+                    <tr>
+                        <th>Variation</th>
+                        <th>Average Correct</th>
+                        <th>Average Incorrect</th>
+                        <th>Average Missing</th>
+                        <th>Number of Samples</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+            <tr>
+                <td>GT_bbox</td>
+                <td>92.24%</td>
+                <td>3.16%</td>
+                <td>3.35%</td>
+                <td>92</td>
+            </tr>
+        
+            <tr>
+                <td>GT_bbox_postprocess</td>
+                <td>90.78%</td>
+                <td>1.66%</td>
+                <td>6.29%</td>
+                <td>92</td>
+            </tr>
+        
+            <tr>
+                <td>GT_label_postprocess</td>
+                <td>81.67%</td>
+                <td>1.52%</td>
+                <td>15.37%</td>
+                <td>92</td>
+            </tr>
+        
+            <tr>
+                <td>GT_label</td>
+                <td>78.82%</td>
+                <td>3.26%</td>
+                <td>16.43%</td>
+                <td>92</td>
+            </tr>
+        
+            <tr>
+                <td>full_pipeline</td>
+                <td>64.33%</td>
+                <td>2.72%</td>
+                <td>31.53%</td>
+                <td>92</td>
+            </tr>
+        
+            <tr>
+                <td>full_pipeline_postprocess</td>
+                <td>60.88%</td>
+                <td>1.36%</td>
+                <td>36.35%</td>
+                <td>92</td>
+            </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    
         <div class="floating-legend">
             <div class="legend-item">
                 Comparison image color coding:
