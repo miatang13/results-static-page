@@ -1,1 +1,0 @@
-animal, donkey, drawing, horse, hut, stable

@@ -1,1 +1,0 @@
-['park bench(0.73)', 'gingerbread house(0.52)', 'tree(0.48)', 'tree(0.48)', 'fence(0.47)', 'tree(0.46)', 'tree(0.46)', 'tree(0.37)', 'fence(0.35)', 'illustration(0.33)', 'fence(0.33)', 'tree(0.26)']

@@ -1,1 +1,0 @@
-box, circle, cone, cube, cylinder, face, line, pyramid, shape, square, symmetry, triangle

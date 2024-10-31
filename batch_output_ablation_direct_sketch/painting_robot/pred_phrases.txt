@@ -1,1 +1,0 @@
-['brush(0.47)', 'easel(0.43)', 'illustration(0.42)', 'goggles(0.40)', 'goggles(0.27)', 'easel(0.26)', 'stool(0.26)', 'stool(0.26)']

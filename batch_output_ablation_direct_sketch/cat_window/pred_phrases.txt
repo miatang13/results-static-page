@@ -1,1 +1,0 @@
-['window(0.38)', 'illustration(0.37)', 'window(0.35)', 'window sill(0.31)', 'ledge(0.25)']

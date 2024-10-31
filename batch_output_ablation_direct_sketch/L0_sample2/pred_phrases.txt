@@ -1,1 +1,0 @@
-['bottle(0.76)', 'basket(0.62)', 'girl(0.55)', 'woman(0.47)', 'animal(0.45)', 'animal(0.38)', 'food(0.34)', 'tree(0.34)', 'tree(0.31)']

@@ -1,1 +1,0 @@
-['cage(0.66)', 'animal(0.59)', 'tree(0.52)', 'boy(0.38)', 'image(0.37)', 'tree(0.30)', 'illustration(0.28)']

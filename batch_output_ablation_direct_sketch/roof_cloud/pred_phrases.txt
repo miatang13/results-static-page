@@ -1,1 +1,0 @@
-['hut(0.60)', 'illustration(0.34)']

@@ -1,1 +1,0 @@
-['image landscape(0.37)']

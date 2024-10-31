@@ -1,1 +1,0 @@
-['bicycle(0.78)', 'child(0.61)', 'house exterior(0.59)', 'man(0.59)', 'woman(0.53)', 'illustration(0.35)']

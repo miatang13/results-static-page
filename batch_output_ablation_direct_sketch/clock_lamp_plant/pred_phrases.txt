@@ -1,1 +1,0 @@
-['clock(0.62)', 'pot(0.58)', 'plant(0.53)', 'lamp(0.50)', 'pen pencil(0.32)', 'clock(0.31)', 'table(0.26)']

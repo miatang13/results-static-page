@@ -1,1 +1,0 @@
-['keyboard(0.65)', 'mouse(0.58)', 'notebook(0.44)', 'pen(0.38)', 'computer(0.31)']

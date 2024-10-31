@@ -1,1 +1,0 @@
-['clock(0.54)', 'animal(0.53)', 'child(0.52)', 'man(0.48)', 'balustrade(0.37)', 'child(0.36)', 'illustration(0.27)', 'circle(0.26)']

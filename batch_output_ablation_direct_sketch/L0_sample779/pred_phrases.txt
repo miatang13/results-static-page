@@ -1,1 +1,0 @@
-['car cart(0.46)', 'palm tree(0.44)', 'animal(0.43)', 'palm tree(0.35)', 'palm tree(0.35)', 'cartoon(0.29)', 'illustration(0.27)', 'cartoon(0.25)']

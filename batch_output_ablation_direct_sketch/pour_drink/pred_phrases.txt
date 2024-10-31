@@ -1,1 +1,0 @@
-['wine glass(0.46)', 'table(0.40)', 'alcohol(0.36)', 'cup(0.35)', 'fig(0.28)']

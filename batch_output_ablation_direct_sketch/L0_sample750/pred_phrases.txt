@@ -1,1 +1,0 @@
-['bench(0.76)', 'girl(0.66)', 'palm tree(0.52)', 'palm tree(0.44)', 'palm tree(0.43)', 'park(0.29)', 'cartoon(0.28)', 'cartoon(0.26)', 'palm tree(0.26)', 'illustration(0.25)']

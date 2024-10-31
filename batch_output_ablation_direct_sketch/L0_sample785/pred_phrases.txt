@@ -1,1 +1,0 @@
-['house exterior(0.58)', 'woman(0.44)', 'graveyard(0.40)', 'flower(0.36)', 'illustration(0.34)', 'stroll(0.34)', 'illustration(0.33)', 'flower(0.33)', 'flower(0.32)', 'illustration(0.32)', 'illustration(0.30)', 'flower(0.28)', 'book(0.25)']

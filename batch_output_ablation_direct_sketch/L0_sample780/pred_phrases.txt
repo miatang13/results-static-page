@@ -1,1 +1,0 @@
-['bicycle(0.68)', 'boy(0.41)', 'illustration(0.37)', 'child girl(0.37)']

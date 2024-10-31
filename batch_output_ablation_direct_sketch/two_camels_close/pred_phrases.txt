@@ -1,1 +1,0 @@
-['camel(0.67)', 'camel(0.66)', 'illustration(0.36)']

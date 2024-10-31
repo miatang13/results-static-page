@@ -1,1 +1,0 @@
-['woman(0.53)', 'person(0.35)', 'woman(0.34)', 'woman(0.32)', 'skate roller skate(0.31)', 'skate roller skate(0.25)']

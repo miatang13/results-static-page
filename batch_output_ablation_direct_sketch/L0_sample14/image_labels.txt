@@ -1,1 +1,0 @@
-bench, black, chase, child, dog, drawing, girl, illustration, park, park bench, play, tree

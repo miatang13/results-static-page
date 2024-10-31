@@ -1,1 +1,0 @@
-['man(0.54)', 'illustration(0.37)', 'bench(0.35)', 'park bench(0.33)']

@@ -1,1 +1,0 @@
-['cartoon(0.45)', 'traffic sign(0.34)', 'toaster(0.30)', 'cartoon(0.27)', 'light traffic light(0.27)']

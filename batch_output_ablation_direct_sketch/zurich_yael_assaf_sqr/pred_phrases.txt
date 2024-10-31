@@ -1,1 +1,0 @@
-['goggles(0.59)', 'goggles(0.59)', 'woman(0.51)', 'man(0.33)', 'mountain(0.32)']

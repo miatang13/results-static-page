@@ -1,1 +1,0 @@
-['man(0.58)', 'dog(0.57)', 'boy(0.47)', 'wheelchair(0.32)', 'wheelchair(0.30)']

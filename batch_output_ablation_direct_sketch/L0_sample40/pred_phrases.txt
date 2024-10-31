@@ -1,1 +1,0 @@
-['fence(0.69)', 'man(0.61)', 'gingerbread house(0.60)', 'cartoon(0.39)', 'illustration(0.37)', 'gingerbread house(0.27)']

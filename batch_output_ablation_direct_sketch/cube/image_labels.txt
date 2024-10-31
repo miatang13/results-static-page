@@ -1,1 +1,0 @@
-box, container, cube, icon, illustration, line, rectangle, square

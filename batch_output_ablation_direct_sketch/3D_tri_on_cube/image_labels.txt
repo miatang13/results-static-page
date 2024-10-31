@@ -1,1 +1,0 @@
-box, cone, cube, face, icon, line, pyramid, side, square

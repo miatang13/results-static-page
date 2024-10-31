@@ -1,1 +1,0 @@
-['sheep(0.48)', 'sheep(0.42)', 'herd(0.42)', 'lamb sheep(0.28)', 'sheep(0.25)']

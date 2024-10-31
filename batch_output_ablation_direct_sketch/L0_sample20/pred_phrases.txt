@@ -1,1 +1,0 @@
-['child(0.57)', 'christmas tree(0.51)', 'chair(0.50)', 'illustration(0.47)', 'goat lamb(0.37)', 'animal goat(0.36)']

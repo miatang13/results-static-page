@@ -1,0 +1,10 @@
+[
+    "box, circle, cone, cube, cylinder, drawing, pyramid, shape, square, triangle",
+    "circle, cone, cube, cylinder, drawing, pyramid, shape, square",
+    "box, circle, cone, cube, cylinder, drawing, image, pyramid, shape, square",
+    "ball, box, circle, cone, cube, cylinder, illustration, pyramid, shape, sphere, triangle",
+    "box, circle, cone, cube, cylinder, pyramid, shape, sphere",
+    "box, circle, cone, cube, cylinder, drawing, line, pyramid, shape, sphere, square, triangle",
+    "box, circle, cone, cube, cylinder, pyramid, shape, sphere, square",
+    "ball, block, box, cone, cube, cylinder, illustration, image, pyramid, shape, sphere, square"
+]

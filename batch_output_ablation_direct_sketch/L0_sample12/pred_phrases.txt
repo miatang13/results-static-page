@@ -1,1 +1,0 @@
-['table(0.60)', 'man(0.58)', 'armchair(0.57)', 'boy(0.54)', 'couch(0.53)', 'armchair(0.45)', 'illustration(0.40)', 'illustration(0.39)', 'animal(0.37)', 'stool(0.36)', 'stool(0.25)']

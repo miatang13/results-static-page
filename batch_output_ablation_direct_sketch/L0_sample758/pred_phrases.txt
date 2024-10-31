@@ -1,1 +1,0 @@
-['bicycle(0.79)', 'hut(0.64)', 'hut(0.62)', 'illustration(0.49)', 'girl(0.46)', 'palm tree(0.45)', 'child(0.44)', 'sky(0.42)', 'palm tree(0.37)', 'kite(0.35)', 'kite(0.30)']

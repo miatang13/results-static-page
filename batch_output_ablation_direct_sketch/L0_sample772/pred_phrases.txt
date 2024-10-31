@@ -1,1 +1,0 @@
-['house exterior hut(0.59)', 'palm tree(0.52)', 'palm tree(0.46)', 'illustration(0.45)', 'palm tree(0.44)', 'cattle(0.43)', 'cattle cow(0.43)', 'cattle(0.42)', 'cattle(0.39)', 'cattle(0.38)', 'landscape(0.30)']

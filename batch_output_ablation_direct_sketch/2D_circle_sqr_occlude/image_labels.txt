@@ -1,1 +1,0 @@
-black, circle, icon, illustration, line, rectangle, shape, square

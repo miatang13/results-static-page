@@ -1,1 +1,0 @@
-['park bench(0.53)', 'illustration(0.46)', 'picnic table(0.38)', 'tree(0.30)', 'tree(0.28)']

@@ -1,1 +1,0 @@
-['circle(0.61)', 'rectangle(0.43)', 'illustration(0.41)']

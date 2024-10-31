@@ -1,1 +1,0 @@
-['cowboy hat(0.68)', 'basket(0.66)', 'cat(0.60)', 'cowboy(0.50)', 'animal(0.44)', 'grape(0.42)', 'image(0.31)', 'fruit(0.30)', 'animal(0.28)']
