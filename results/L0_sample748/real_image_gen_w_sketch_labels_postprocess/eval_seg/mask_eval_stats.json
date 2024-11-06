@@ -1,8 +1,8 @@
 {
-    "correct": 31578,
-    "incorrect": 5851,
-    "missing": 31732,
-    "correct_ratio": 45,
-    "incorrect_ratio": 8,
-    "missing_ratio": 45
+    "correct": 44475,
+    "incorrect": 6656,
+    "missing": 18045,
+    "correct_ratio": 64,
+    "incorrect_ratio": 9,
+    "missing_ratio": 26
 }
