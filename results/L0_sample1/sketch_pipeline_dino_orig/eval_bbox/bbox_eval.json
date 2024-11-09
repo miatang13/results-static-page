@@ -1,0 +1,32 @@
+{
+    "per_class": {
+        "grass": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 7
+        },
+        "bottle": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "grape": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 2
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.18181818181818182,
+        "precision": 0.3333333333333333,
+        "f1_score": 0.23529411764705885,
+        "matches_found": 2,
+        "total_gt": 11,
+        "total_pred": 6
+    }
+}

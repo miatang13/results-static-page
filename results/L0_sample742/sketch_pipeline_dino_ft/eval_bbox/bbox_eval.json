@@ -1,0 +1,62 @@
+{
+    "per_class": {
+        "mountain": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "fence": {
+            "recall": 0.5,
+            "matches_found": 1,
+            "total_gt": 2
+        },
+        "tree": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "moon": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "cat": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "dog": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "star": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 4
+        },
+        "grass": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 5
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.2631578947368421,
+        "precision": 0.625,
+        "f1_score": 0.37037037037037035,
+        "matches_found": 5,
+        "total_gt": 19,
+        "total_pred": 8
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.6666666666666666,
+            "matches_found": 2,
+            "total_gt": 3
+        },
+        "basket": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "grass": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 13
+        },
+        "umbrella": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "chair": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.15,
+        "precision": 0.5,
+        "f1_score": 0.23076923076923075,
+        "matches_found": 3,
+        "total_gt": 20,
+        "total_pred": 6
+    }
+}

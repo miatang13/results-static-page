@@ -1,0 +1,58 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "basket": {
+        "correct": 20240,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "chair": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 999,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "cloud": {
+        "correct": 14271,
+        "incorrect": 0,
+        "missing": 1799,
+        "correct_ratio": 88,
+        "incorrect_ratio": 0,
+        "missing_ratio": 11
+    },
+    "grass": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 13716,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "umbrella": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 1798,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 4938,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

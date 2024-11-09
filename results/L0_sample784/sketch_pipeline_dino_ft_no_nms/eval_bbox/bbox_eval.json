@@ -1,0 +1,37 @@
+{
+    "per_class": {
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 7,
+            "total_gt": 7
+        },
+        "house": {
+            "recall": 0.5,
+            "matches_found": 1,
+            "total_gt": 2
+        },
+        "bench": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "road": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.8666666666666667,
+        "precision": 0.48148148148148145,
+        "f1_score": 0.6190476190476191,
+        "matches_found": 13,
+        "total_gt": 15,
+        "total_pred": 27
+    }
+}

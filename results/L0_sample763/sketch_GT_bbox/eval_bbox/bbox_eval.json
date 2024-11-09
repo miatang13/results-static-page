@@ -1,0 +1,47 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 7,
+            "total_gt": 7
+        },
+        "mountain": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "grass": {
+            "recall": 1.0,
+            "matches_found": 10,
+            "total_gt": 10
+        },
+        "cat": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1_score": 1.0,
+        "matches_found": 25,
+        "total_gt": 25,
+        "total_pred": 25
+    }
+}

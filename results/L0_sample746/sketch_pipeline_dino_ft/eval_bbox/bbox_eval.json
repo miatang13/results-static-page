@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "moon": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "grass": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 5
+        },
+        "bench": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.625,
+        "precision": 0.9090909090909091,
+        "f1_score": 0.7407407407407406,
+        "matches_found": 10,
+        "total_gt": 16,
+        "total_pred": 11
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "per_class": {
+        "mountain": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 2
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 9,
+            "total_gt": 9
+        },
+        "cloud": {
+            "recall": 0.6666666666666666,
+            "matches_found": 2,
+            "total_gt": 3
+        },
+        "duck": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "bench": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "bird": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.7368421052631579,
+        "precision": 0.42424242424242425,
+        "f1_score": 0.5384615384615385,
+        "matches_found": 14,
+        "total_gt": 19,
+        "total_pred": 33
+    }
+}

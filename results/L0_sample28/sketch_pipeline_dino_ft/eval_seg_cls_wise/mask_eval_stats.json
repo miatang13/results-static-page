@@ -1,0 +1,66 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cat": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 781,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "dog": {
+        "correct": 6081,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "grass": {
+        "correct": 9497,
+        "incorrect": 0,
+        "missing": 2736,
+        "correct_ratio": 77,
+        "incorrect_ratio": 0,
+        "missing_ratio": 22
+    },
+    "horse": {
+        "correct": 3431,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "house": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 27973,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "people": {
+        "correct": 2126,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 9221,
+        "incorrect": 0,
+        "missing": 8212,
+        "correct_ratio": 52,
+        "incorrect_ratio": 0,
+        "missing_ratio": 47
+    }
+}

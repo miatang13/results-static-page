@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 2
+        },
+        "tree": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 6
+        },
+        "cow": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "grass": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 13
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.19230769230769232,
+        "precision": 0.23809523809523808,
+        "f1_score": 0.21276595744680848,
+        "matches_found": 5,
+        "total_gt": 26,
+        "total_pred": 21
+    }
+}

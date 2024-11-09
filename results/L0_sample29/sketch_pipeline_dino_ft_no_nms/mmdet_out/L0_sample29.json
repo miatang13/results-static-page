@@ -1,0 +1,62 @@
+{
+    "bboxes": [
+        [
+            0.41114697265625,
+            0.4534593912760417,
+            0.59906396484375,
+            0.7976500651041667
+        ],
+        [
+            0.5855965169270834,
+            0.1316040547688802,
+            0.9971851399739583,
+            0.5731418050130208
+        ],
+        [
+            0.6389615478515625,
+            0.6110732421875,
+            0.798353271484375,
+            0.783860107421875
+        ],
+        [
+            0.37202351888020835,
+            0.0005726888577143351,
+            0.5684125569661458,
+            0.17106404622395832
+        ],
+        [
+            0.37202351888020835,
+            0.0005726888577143351,
+            0.5684125569661458,
+            0.17106404622395832
+        ],
+        [
+            0.6388205159505208,
+            0.611138916015625,
+            0.7983681640625,
+            0.7840511881510417
+        ]
+    ],
+    "labels": [
+        " cartoon",
+        " stand",
+        " house exterior",
+        " illustration",
+        " drawing",
+        " house exterior"
+    ],
+    "scores": [
+        0.9682675004005432,
+        0.8767070174217224,
+        0.6076712012290955,
+        0.36176174879074097,
+        0.28116968274116516,
+        0.20346949994564056
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}

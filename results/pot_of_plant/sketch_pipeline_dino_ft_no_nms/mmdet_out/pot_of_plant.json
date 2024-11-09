@@ -1,0 +1,46 @@
+{
+    "bboxes": [
+        [
+            0.13281017541885376,
+            0.1359020471572876,
+            0.8795643448829651,
+            0.8541786074638367
+        ],
+        [
+            0.13281017541885376,
+            0.1359020471572876,
+            0.8795643448829651,
+            0.8541786074638367
+        ],
+        [
+            0.1329270601272583,
+            0.1358329802751541,
+            0.8799796104431152,
+            0.5013135075569153
+        ],
+        [
+            0.13281017541885376,
+            0.1359020471572876,
+            0.8795643448829651,
+            0.8541786074638367
+        ]
+    ],
+    "labels": [
+        " pot",
+        " plant",
+        " flower",
+        " illustration"
+    ],
+    "scores": [
+        0.607363760471344,
+        0.584747314453125,
+        0.36613863706588745,
+        0.25906234979629517
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}

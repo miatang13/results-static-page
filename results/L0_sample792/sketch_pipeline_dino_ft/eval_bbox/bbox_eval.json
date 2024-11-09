@@ -1,0 +1,52 @@
+{
+    "per_class": {
+        "fence": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 3
+        },
+        "cloud": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 2
+        },
+        "tree": {
+            "recall": 0.8333333333333334,
+            "matches_found": 5,
+            "total_gt": 6
+        },
+        "house": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 3
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "grass": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 4
+        },
+        "road": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.36363636363636365,
+        "precision": 0.8,
+        "f1_score": 0.5000000000000001,
+        "matches_found": 8,
+        "total_gt": 22,
+        "total_pred": 10
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "per_class": {
+        "mountain": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "house": {
+            "recall": 0.5,
+            "matches_found": 1,
+            "total_gt": 2
+        },
+        "star": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 5
+        },
+        "street lamp": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "bench": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "moon": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.38461538461538464,
+        "precision": 0.5555555555555556,
+        "f1_score": 0.4545454545454546,
+        "matches_found": 5,
+        "total_gt": 13,
+        "total_pred": 9
+    }
+}

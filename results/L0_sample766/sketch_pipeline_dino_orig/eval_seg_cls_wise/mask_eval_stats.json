@@ -1,0 +1,50 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cloud": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 7390,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "flower": {
+        "correct": 2821,
+        "incorrect": 0,
+        "missing": 3868,
+        "correct_ratio": 42,
+        "incorrect_ratio": 0,
+        "missing_ratio": 57
+    },
+    "people": {
+        "correct": 42231,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 9039,
+        "incorrect": 0,
+        "missing": 8381,
+        "correct_ratio": 51,
+        "incorrect_ratio": 0,
+        "missing_ratio": 48
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 2041,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

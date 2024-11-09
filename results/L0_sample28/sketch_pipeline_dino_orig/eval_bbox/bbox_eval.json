@@ -1,0 +1,47 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "tree": {
+            "recall": 0.5,
+            "matches_found": 1,
+            "total_gt": 2
+        },
+        "cat": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "horse": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "dog": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "grass": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        }
+    },
+    "overall": {
+        "recall": 0.8181818181818182,
+        "precision": 0.9,
+        "f1_score": 0.8571428571428572,
+        "matches_found": 9,
+        "total_gt": 11,
+        "total_pred": 10
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "bench": {
+        "correct": 6477,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "bird": {
+        "correct": 652,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cat": {
+        "correct": 1354,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cloud": {
+        "correct": 8881,
+        "incorrect": 0,
+        "missing": 2343,
+        "correct_ratio": 79,
+        "incorrect_ratio": 0,
+        "missing_ratio": 20
+    },
+    "flower": {
+        "correct": 6414,
+        "incorrect": 0,
+        "missing": 688,
+        "correct_ratio": 90,
+        "incorrect_ratio": 0,
+        "missing_ratio": 9
+    },
+    "mountain": {
+        "correct": 6721,
+        "incorrect": 0,
+        "missing": 2773,
+        "correct_ratio": 70,
+        "incorrect_ratio": 0,
+        "missing_ratio": 29
+    },
+    "sun": {
+        "correct": 3264,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 41055,
+        "incorrect": 0,
+        "missing": 3669,
+        "correct_ratio": 91,
+        "incorrect_ratio": 0,
+        "missing_ratio": 8
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 659,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

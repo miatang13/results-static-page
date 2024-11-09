@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.8571428571428571,
+            "matches_found": 6,
+            "total_gt": 7
+        },
+        "mountain": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 5
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 8,
+            "total_gt": 8
+        },
+        "sheep": {
+            "recall": 0.5,
+            "matches_found": 1,
+            "total_gt": 2
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.6666666666666666,
+        "precision": 0.3018867924528302,
+        "f1_score": 0.41558441558441556,
+        "matches_found": 16,
+        "total_gt": 24,
+        "total_pred": 53
+    }
+}

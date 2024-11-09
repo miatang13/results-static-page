@@ -1,0 +1,74 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "bench": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 1664,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "bird": {
+        "correct": 911,
+        "incorrect": 0,
+        "missing": 650,
+        "correct_ratio": 58,
+        "incorrect_ratio": 0,
+        "missing_ratio": 41
+    },
+    "cloud": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 8152,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "house": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 3220,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "mountain": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 9449,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "road": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 3087,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "tree": {
+        "correct": 43085,
+        "incorrect": 0,
+        "missing": 13171,
+        "correct_ratio": 76,
+        "incorrect_ratio": 0,
+        "missing_ratio": 23
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 1018,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}
