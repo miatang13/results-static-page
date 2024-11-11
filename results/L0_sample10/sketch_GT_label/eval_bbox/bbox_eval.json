@@ -29,11 +29,6 @@
             "recall": 1.0,
             "matches_found": 1,
             "total_gt": 1
-        },
-        "grass": {
-            "recall": 0.6666666666666666,
-            "matches_found": 2,
-            "total_gt": 3
         }
     },
     "overall": {

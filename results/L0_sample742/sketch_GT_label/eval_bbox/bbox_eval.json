@@ -5,11 +5,6 @@
             "matches_found": 0,
             "total_gt": 1
         },
-        "fence": {
-            "recall": 0.5,
-            "matches_found": 1,
-            "total_gt": 2
-        },
         "tree": {
             "recall": 1.0,
             "matches_found": 1,
@@ -39,11 +34,6 @@
             "recall": 1.0,
             "matches_found": 4,
             "total_gt": 4
-        },
-        "grass": {
-            "recall": 1.0,
-            "matches_found": 5,
-            "total_gt": 5
         },
         "others": {
             "recall": 1.0,

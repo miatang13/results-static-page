@@ -1,0 +1,52 @@
+{
+    "per_class": {
+        "mountain": {
+            "recall": 0.3333333333333333,
+            "matches_found": 1,
+            "total_gt": 3
+        },
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 5,
+            "total_gt": 5
+        },
+        "picnic rug": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "basket": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        }
+    },
+    "overall": {
+        "recall": 0.9166666666666666,
+        "precision": 0.88,
+        "f1_score": 0.8979591836734694,
+        "matches_found": 22,
+        "total_gt": 24,
+        "total_pred": 25
+    }
+}

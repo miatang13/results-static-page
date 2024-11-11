@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.3333333333333333,
+            "matches_found": 1,
+            "total_gt": 3
+        },
+        "tree": {
+            "recall": 0.375,
+            "matches_found": 3,
+            "total_gt": 8
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "bicycle": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.42105263157894735,
+        "precision": 0.7272727272727273,
+        "f1_score": 0.5333333333333333,
+        "matches_found": 8,
+        "total_gt": 19,
+        "total_pred": 11
+    }
+}

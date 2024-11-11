@@ -20,11 +20,6 @@
             "matches_found": 1,
             "total_gt": 1
         },
-        "grass": {
-            "recall": 0.2,
-            "matches_found": 1,
-            "total_gt": 5
-        },
         "dog": {
             "recall": 1.0,
             "matches_found": 1,

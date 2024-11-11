@@ -1,0 +1,52 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "bottle": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "cow": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "pig": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "sheep": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "cloud": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 2
+        }
+    },
+    "overall": {
+        "recall": 0.8181818181818182,
+        "precision": 0.75,
+        "f1_score": 0.7826086956521738,
+        "matches_found": 9,
+        "total_gt": 11,
+        "total_pred": 12
+    }
+}

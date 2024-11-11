@@ -15,11 +15,6 @@
             "matches_found": 3,
             "total_gt": 3
         },
-        "fence": {
-            "recall": 1.0,
-            "matches_found": 3,
-            "total_gt": 3
-        },
         "truck": {
             "recall": 1.0,
             "matches_found": 1,

@@ -15,11 +15,6 @@
             "matches_found": 5,
             "total_gt": 6
         },
-        "fence": {
-            "recall": 1.0,
-            "matches_found": 2,
-            "total_gt": 2
-        },
         "moon": {
             "recall": 1.0,
             "matches_found": 1,

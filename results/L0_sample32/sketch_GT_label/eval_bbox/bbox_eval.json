@@ -5,11 +5,6 @@
             "matches_found": 2,
             "total_gt": 2
         },
-        "grass": {
-            "recall": 0.5,
-            "matches_found": 2,
-            "total_gt": 4
-        },
         "sun": {
             "recall": 1.0,
             "matches_found": 1,

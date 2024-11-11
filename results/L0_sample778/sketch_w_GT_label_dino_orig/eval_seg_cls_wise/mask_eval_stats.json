@@ -1,0 +1,58 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cloud": {
+        "correct": 7373,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cow": {
+        "correct": 4815,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "grass": {
+        "correct": 12841,
+        "incorrect": 0,
+        "missing": 7647,
+        "correct_ratio": 62,
+        "incorrect_ratio": 0,
+        "missing_ratio": 37
+    },
+    "sun": {
+        "correct": 4509,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 2879,
+        "incorrect": 0,
+        "missing": 2250,
+        "correct_ratio": 56,
+        "incorrect_ratio": 0,
+        "missing_ratio": 43
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 3564,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

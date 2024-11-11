@@ -10,11 +10,6 @@
             "matches_found": 2,
             "total_gt": 3
         },
-        "bucket": {
-            "recall": 1.0,
-            "matches_found": 1,
-            "total_gt": 1
-        },
         "basket": {
             "recall": 1.0,
             "matches_found": 2,
@@ -24,11 +19,6 @@
             "recall": 1.0,
             "matches_found": 1,
             "total_gt": 1
-        },
-        "grass": {
-            "recall": 0.0,
-            "matches_found": 0,
-            "total_gt": 5
         },
         "others": {
             "recall": 0.0,

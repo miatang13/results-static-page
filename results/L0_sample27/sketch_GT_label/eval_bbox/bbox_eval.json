@@ -34,11 +34,6 @@
             "recall": 1.0,
             "matches_found": 1,
             "total_gt": 1
-        },
-        "fence": {
-            "recall": 1.0,
-            "matches_found": 1,
-            "total_gt": 1
         }
     },
     "overall": {

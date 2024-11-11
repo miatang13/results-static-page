@@ -20,11 +20,6 @@
             "matches_found": 6,
             "total_gt": 6
         },
-        "butterfly": {
-            "recall": 0.5,
-            "matches_found": 1,
-            "total_gt": 2
-        },
         "road": {
             "recall": 1.0,
             "matches_found": 1,

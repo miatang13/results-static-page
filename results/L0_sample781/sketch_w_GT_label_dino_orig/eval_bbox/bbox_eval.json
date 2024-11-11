@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 8,
+            "total_gt": 8
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 8,
+            "total_gt": 8
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "bicycle": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "bench": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.95,
+        "precision": 0.95,
+        "f1_score": 0.9500000000000001,
+        "matches_found": 19,
+        "total_gt": 20,
+        "total_pred": 20
+    }
+}

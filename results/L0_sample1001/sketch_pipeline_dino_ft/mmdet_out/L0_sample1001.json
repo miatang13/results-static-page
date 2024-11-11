@@ -1,0 +1,62 @@
+{
+    "bboxes": [
+        [
+            0.0009488984743754069,
+            0.15873654174804688,
+            0.23048130289713542,
+            0.5980968017578125
+        ],
+        [
+            0.74512158203125,
+            0.70450390625,
+            0.944960205078125,
+            0.9310052897135417
+        ],
+        [
+            0.18482899983723958,
+            0.5023605143229166,
+            0.451776611328125,
+            0.925678955078125
+        ],
+        [
+            0.00332319704691569,
+            0.03879111735026042,
+            0.9968755696614583,
+            0.9934908854166666
+        ],
+        [
+            0.8388402506510416,
+            0.15913472493489583,
+            0.9911409505208333,
+            0.4645027262369792
+        ],
+        [
+            0.5862148844401042,
+            0.23885605875651042,
+            0.6979935709635416,
+            0.5047352701822917
+        ]
+    ],
+    "labels": [
+        " illustration",
+        "animal",
+        "animal",
+        " duck",
+        " illustration",
+        " illustration"
+    ],
+    "scores": [
+        0.6641622185707092,
+        0.5684464573860168,
+        0.32187193632125854,
+        0.32072538137435913,
+        0.3116213381290436,
+        0.29254305362701416
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}
