@@ -1,0 +1,1 @@
+['car, cloud, drive, highway, illustration, road, sky, tree, white', 'blanket, car, drawing, illustration, snow, tree, winter', 'car, sky, tree', 'car, drawing, tree', 'art, car, cloud, draw, drawing, red, tree', 'art, car, cloud, drawing, sky, tree', 'art, car, drawing, drive, road, tree, white', 'art, car, drawing, drive, illustration, poster, tree']
