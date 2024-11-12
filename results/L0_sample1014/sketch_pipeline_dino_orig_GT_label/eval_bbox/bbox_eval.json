@@ -1,0 +1,32 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "tree": {
+            "recall": 0.6,
+            "matches_found": 3,
+            "total_gt": 5
+        },
+        "horse": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.8125,
+        "precision": 0.9285714285714286,
+        "f1_score": 0.8666666666666666,
+        "matches_found": 13,
+        "total_gt": 16,
+        "total_pred": 14
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "per_class": {
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "dog": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "airplane": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.95,
+        "precision": 0.9047619047619048,
+        "f1_score": 0.9268292682926829,
+        "matches_found": 19,
+        "total_gt": 20,
+        "total_pred": 21
+    }
+}

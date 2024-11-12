@@ -1,0 +1,58 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "car": {
+        "correct": 2711,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "house": {
+        "correct": 8167,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "moon": {
+        "correct": 840,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "road": {
+        "correct": 5108,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "star": {
+        "correct": 787,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 6721,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cat": {
+        "correct": 3094,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "chicken": {
+        "correct": 1056,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cloud": {
+        "correct": 1917,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cow": {
+        "correct": 6892,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "dog": {
+        "correct": 4311,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "duck": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 1024,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "flower": {
+        "correct": 854,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "grass": {
+        "correct": 3433,
+        "incorrect": 0,
+        "missing": 2416,
+        "correct_ratio": 58,
+        "incorrect_ratio": 0,
+        "missing_ratio": 41
+    },
+    "sun": {
+        "correct": 4513,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 43495,
+        "incorrect": 0,
+        "missing": 8827,
+        "correct_ratio": 83,
+        "incorrect_ratio": 0,
+        "missing_ratio": 16
+    }
+}

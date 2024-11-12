@@ -1,0 +1,82 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cloud": {
+        "correct": 3558,
+        "incorrect": 0,
+        "missing": 926,
+        "correct_ratio": 79,
+        "incorrect_ratio": 0,
+        "missing_ratio": 20
+    },
+    "cow": {
+        "correct": 3066,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "mountain": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 12127,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "pig": {
+        "correct": 1718,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "rabbit": {
+        "correct": 3577,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "sheep": {
+        "correct": 2525,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "sun": {
+        "correct": 4385,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 10648,
+        "incorrect": 0,
+        "missing": 16608,
+        "correct_ratio": 39,
+        "incorrect_ratio": 0,
+        "missing_ratio": 60
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 2783,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

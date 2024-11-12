@@ -1,0 +1,27 @@
+{
+    "per_class": {
+        "rabbit": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "cloud": {
+            "recall": 0.6,
+            "matches_found": 3,
+            "total_gt": 5
+        }
+    },
+    "overall": {
+        "recall": 0.3333333333333333,
+        "precision": 0.8,
+        "f1_score": 0.47058823529411764,
+        "matches_found": 8,
+        "total_gt": 24,
+        "total_pred": 10
+    }
+}

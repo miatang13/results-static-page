@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.5,
+            "matches_found": 3,
+            "total_gt": 6
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 5,
+            "total_gt": 5
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.7391304347826086,
+        "precision": 0.8947368421052632,
+        "f1_score": 0.8095238095238095,
+        "matches_found": 17,
+        "total_gt": 23,
+        "total_pred": 19
+    }
+}

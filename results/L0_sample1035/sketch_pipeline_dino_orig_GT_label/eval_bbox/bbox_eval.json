@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.4444444444444444,
+            "matches_found": 4,
+            "total_gt": 9
+        },
+        "house": {
+            "recall": 0.75,
+            "matches_found": 3,
+            "total_gt": 4
+        },
+        "tree": {
+            "recall": 0.75,
+            "matches_found": 3,
+            "total_gt": 4
+        },
+        "car": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "street lamp": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.6818181818181818,
+        "precision": 0.7142857142857143,
+        "f1_score": 0.6976744186046512,
+        "matches_found": 15,
+        "total_gt": 22,
+        "total_pred": 21
+    }
+}

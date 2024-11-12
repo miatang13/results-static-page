@@ -1,0 +1,52 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 5,
+            "total_gt": 5
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "sheep": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "road": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.7727272727272727,
+        "precision": 0.8947368421052632,
+        "f1_score": 0.8292682926829269,
+        "matches_found": 17,
+        "total_gt": 22,
+        "total_pred": 19
+    }
+}

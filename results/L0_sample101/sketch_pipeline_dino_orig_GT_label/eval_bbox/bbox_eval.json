@@ -1,0 +1,37 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "bird": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        }
+    },
+    "overall": {
+        "recall": 0.6666666666666666,
+        "precision": 0.8,
+        "f1_score": 0.7272727272727272,
+        "matches_found": 8,
+        "total_gt": 12,
+        "total_pred": 10
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "chicken": {
+        "correct": 20937,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "cloud": {
+        "correct": 3178,
+        "incorrect": 0,
+        "missing": 1023,
+        "correct_ratio": 75,
+        "incorrect_ratio": 0,
+        "missing_ratio": 24
+    },
+    "fence": {
+        "correct": 15526,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "flower": {
+        "correct": 2110,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "grass": {
+        "correct": 2881,
+        "incorrect": 0,
+        "missing": 3671,
+        "correct_ratio": 43,
+        "incorrect_ratio": 0,
+        "missing_ratio": 56
+    },
+    "house": {
+        "correct": 8793,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "road": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 3210,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "sun": {
+        "correct": 11598,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 321,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

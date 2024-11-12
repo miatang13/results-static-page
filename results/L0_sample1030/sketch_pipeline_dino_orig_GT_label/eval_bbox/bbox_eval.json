@@ -1,0 +1,47 @@
+{
+    "per_class": {
+        "mountain": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "cloud": {
+            "recall": 0.6666666666666666,
+            "matches_found": 2,
+            "total_gt": 3
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "tree": {
+            "recall": 0.8571428571428571,
+            "matches_found": 6,
+            "total_gt": 7
+        },
+        "bus": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.8947368421052632,
+        "precision": 0.9444444444444444,
+        "f1_score": 0.918918918918919,
+        "matches_found": 17,
+        "total_gt": 19,
+        "total_pred": 18
+    }
+}

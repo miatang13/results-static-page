@@ -1,0 +1,47 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "tree": {
+            "recall": 0.5,
+            "matches_found": 2,
+            "total_gt": 4
+        },
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "airplane": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "truck": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.8947368421052632,
+        "precision": 0.8095238095238095,
+        "f1_score": 0.8500000000000001,
+        "matches_found": 17,
+        "total_gt": 19,
+        "total_pred": 21
+    }
+}

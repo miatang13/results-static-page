@@ -1,0 +1,32 @@
+{
+    "per_class": {
+        "people": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "table": {
+            "recall": 1.0,
+            "matches_found": 6,
+            "total_gt": 6
+        },
+        "chair": {
+            "recall": 1.0,
+            "matches_found": 5,
+            "total_gt": 5
+        },
+        "dog": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1_score": 1.0,
+        "matches_found": 14,
+        "total_gt": 14,
+        "total_pred": 14
+    }
+}

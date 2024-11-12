@@ -1,0 +1,32 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "tree": {
+            "recall": 0.75,
+            "matches_found": 6,
+            "total_gt": 8
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 5,
+            "total_gt": 5
+        },
+        "road": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.8235294117647058,
+        "precision": 0.875,
+        "f1_score": 0.8484848484848485,
+        "matches_found": 14,
+        "total_gt": 17,
+        "total_pred": 16
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "per_class": {
+        "mountain": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "horse": {
+            "recall": 1.0,
+            "matches_found": 3,
+            "total_gt": 3
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.9090909090909091,
+        "precision": 0.9090909090909091,
+        "f1_score": 0.9090909090909091,
+        "matches_found": 10,
+        "total_gt": 11,
+        "total_pred": 11
+    }
+}

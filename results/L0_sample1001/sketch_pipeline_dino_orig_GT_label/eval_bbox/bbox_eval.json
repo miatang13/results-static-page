@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.6666666666666666,
+            "matches_found": 2,
+            "total_gt": 3
+        },
+        "tree": {
+            "recall": 0.8333333333333334,
+            "matches_found": 5,
+            "total_gt": 6
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "duck": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "rabbit": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.8947368421052632,
+        "precision": 0.8947368421052632,
+        "f1_score": 0.8947368421052632,
+        "matches_found": 17,
+        "total_gt": 19,
+        "total_pred": 19
+    }
+}

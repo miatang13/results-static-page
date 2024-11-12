@@ -1,0 +1,37 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 0.8333333333333334,
+            "matches_found": 5,
+            "total_gt": 6
+        },
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "street lamp": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.9333333333333333,
+        "precision": 0.7777777777777778,
+        "f1_score": 0.8484848484848485,
+        "matches_found": 14,
+        "total_gt": 15,
+        "total_pred": 18
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 5,
+            "total_gt": 5
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "others": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.8095238095238095,
+        "precision": 0.8947368421052632,
+        "f1_score": 0.8500000000000001,
+        "matches_found": 17,
+        "total_gt": 21,
+        "total_pred": 19
+    }
+}

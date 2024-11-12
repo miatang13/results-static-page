@@ -1,0 +1,82 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "butterfly": {
+        "correct": 549,
+        "incorrect": 0,
+        "missing": 734,
+        "correct_ratio": 42,
+        "incorrect_ratio": 0,
+        "missing_ratio": 57
+    },
+    "cloud": {
+        "correct": 2344,
+        "incorrect": 0,
+        "missing": 1266,
+        "correct_ratio": 64,
+        "incorrect_ratio": 0,
+        "missing_ratio": 35
+    },
+    "flower": {
+        "correct": 2632,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "grass": {
+        "correct": 3028,
+        "incorrect": 0,
+        "missing": 17584,
+        "correct_ratio": 14,
+        "incorrect_ratio": 0,
+        "missing_ratio": 85
+    },
+    "mountain": {
+        "correct": 12238,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "road": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 1978,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    },
+    "sun": {
+        "correct": 3536,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 29142,
+        "incorrect": 0,
+        "missing": 3548,
+        "correct_ratio": 89,
+        "incorrect_ratio": 0,
+        "missing_ratio": 10
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 1866,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

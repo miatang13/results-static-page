@@ -1,0 +1,32 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "sun": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "airplane": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "cloud": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        }
+    },
+    "overall": {
+        "recall": 1.0,
+        "precision": 0.8333333333333334,
+        "f1_score": 0.9090909090909091,
+        "matches_found": 10,
+        "total_gt": 10,
+        "total_pred": 12
+    }
+}

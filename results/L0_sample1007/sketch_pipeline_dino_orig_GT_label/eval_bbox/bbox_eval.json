@@ -1,0 +1,32 @@
+{
+    "per_class": {
+        "cloud": {
+            "recall": 0.75,
+            "matches_found": 3,
+            "total_gt": 4
+        },
+        "dog": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "flower": {
+            "recall": 1.0,
+            "matches_found": 8,
+            "total_gt": 8
+        },
+        "pig": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.5185185185185185,
+        "precision": 0.7368421052631579,
+        "f1_score": 0.6086956521739131,
+        "matches_found": 14,
+        "total_gt": 27,
+        "total_pred": 19
+    }
+}

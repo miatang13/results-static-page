@@ -1,0 +1,52 @@
+{
+    "per_class": {
+        "house": {
+            "recall": 0.5,
+            "matches_found": 1,
+            "total_gt": 2
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "table": {
+            "recall": 0.0,
+            "matches_found": 0,
+            "total_gt": 1
+        },
+        "banana": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "people": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "cup": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "dog": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 0.75,
+        "precision": 0.8823529411764706,
+        "f1_score": 0.8108108108108107,
+        "matches_found": 15,
+        "total_gt": 20,
+        "total_pred": 17
+    }
+}

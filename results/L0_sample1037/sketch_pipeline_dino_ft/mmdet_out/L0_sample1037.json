@@ -1,0 +1,46 @@
+{
+    "bboxes": [
+        [
+            0.14648898315429687,
+            0.6696329345703125,
+            0.41054622395833335,
+            0.9290769856770833
+        ],
+        [
+            0.32390997314453124,
+            0.35054715983072915,
+            0.6535576171875,
+            0.695318359375
+        ],
+        [
+            0.6696731363932291,
+            0.4168675537109375,
+            0.9540325520833334,
+            0.6996806640625
+        ],
+        [
+            0.029065635681152342,
+            0.4946943359375,
+            0.2877878621419271,
+            0.6996006673177083
+        ]
+    ],
+    "labels": [
+        " drawing",
+        " illustration",
+        " illustration",
+        " illustration"
+    ],
+    "scores": [
+        0.9279658198356628,
+        0.913384199142456,
+        0.8453238010406494,
+        0.6802343726158142
+    ],
+    "model_info": {
+        "model_config": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/intersect_full_ft_all_class_val.py",
+        "weights": "/mnt/sda/miatang/projects/stroke-label/extern/mmdetection/ours_weights/base_cat_full_ft_allclass_val/best_coco_bbox_mAP_iter_47000.pth",
+        "device": "cuda:0",
+        "score_threshold": 0.2
+    }
+}

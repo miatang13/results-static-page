@@ -1,0 +1,58 @@
+{
+    "background": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "butterfly": {
+        "correct": 5732,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "flower": {
+        "correct": 2929,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "grass": {
+        "correct": 1352,
+        "incorrect": 0,
+        "missing": 10242,
+        "correct_ratio": 11,
+        "incorrect_ratio": 0,
+        "missing_ratio": 88
+    },
+    "sun": {
+        "correct": 4236,
+        "incorrect": 0,
+        "missing": 0,
+        "correct_ratio": 100,
+        "incorrect_ratio": 0,
+        "missing_ratio": 0
+    },
+    "tree": {
+        "correct": 22870,
+        "incorrect": 0,
+        "missing": 40851,
+        "correct_ratio": 35,
+        "incorrect_ratio": 0,
+        "missing_ratio": 64
+    },
+    "others": {
+        "correct": 0,
+        "incorrect": 0,
+        "missing": 1361,
+        "correct_ratio": 0,
+        "incorrect_ratio": 0,
+        "missing_ratio": 100
+    }
+}

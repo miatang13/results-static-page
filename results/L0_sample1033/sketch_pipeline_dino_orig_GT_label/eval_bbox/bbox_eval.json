@@ -1,0 +1,42 @@
+{
+    "per_class": {
+        "star": {
+            "recall": 1.0,
+            "matches_found": 9,
+            "total_gt": 9
+        },
+        "moon": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        },
+        "house": {
+            "recall": 1.0,
+            "matches_found": 4,
+            "total_gt": 4
+        },
+        "car": {
+            "recall": 1.0,
+            "matches_found": 2,
+            "total_gt": 2
+        },
+        "tree": {
+            "recall": 1.0,
+            "matches_found": 6,
+            "total_gt": 6
+        },
+        "road": {
+            "recall": 1.0,
+            "matches_found": 1,
+            "total_gt": 1
+        }
+    },
+    "overall": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1_score": 1.0,
+        "matches_found": 23,
+        "total_gt": 23,
+        "total_pred": 23
+    }
+}
